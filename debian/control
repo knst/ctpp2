@@ -1,0 +1,8 @@
+Source: ctpp2
+Section: library
+Priority: optional
+Maintainer: Vasudev Kamath <kamathvasudev@gmail.com>
+Uploaders: Jonas Smedegaard <js@debian.org>
+Build-Depends: debhelper
+Standards-Version: 3.9.3
+Homepage: http://ctpp.havoc.ru/
