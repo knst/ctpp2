@@ -1,0 +1,43 @@
+Source: ctpp2
+Section: libs
+Priority: optional
+Build-Depends: @cdbs@
+Maintainer: Vasudev Kamath <kamathvasudev@gmail.com>
+Uploaders: Jonas Smedegaard <js@debian.org>
+Standards-Version: 3.9.4
+Homepage: http://ctpp.havoc.ru/
+Vcs-Git: git://git.debian.org/collab-maint/ctpp2.git
+Vcs-Browse: http://anonscm.debian.org/gitweb/?p=collab-maint/ctpp2.git;a=summary
+
+Package: libctpp2
+Architecture: any
+Depends: ${shlibs:Depends},
+ ${misc:Depends}
+Multi-Arch: foreign
+Description: HTML template engine for C++
+ CTPP is a suitable choice for projects where a programmer and an HTML
+ designer are different people. The goal of CTPP development was to
+ achieve maximum performance with minimal basic functionality that is
+ easily expandable. In other words, any conceivable capabilities can
+ be added by writing users functions.
+ .
+ CTPP has following advantages over other template engines
+  * Very High performace as this is written in C++.
+  * Flexible syntax of templates.
+  * Robustness
+  * Portability
+  * Support for implementations in the language your choice
+  * Various template sources.
+  * Output data filters
+  * User functions.
+
+Package: ctpp2-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+ ${misc:Depends}
+Multi-Arch: same
+Description: Development files for ctpp2 template engine
+ This package provides header files for developing your applications to
+ use ctpp2 template engine.
+  
+ 
