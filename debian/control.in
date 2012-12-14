@@ -9,6 +9,18 @@ Homepage: http://ctpp.havoc.ru/
 Vcs-Git: git://git.debian.org/collab-maint/ctpp2.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/ctpp2.git;a=summary
 
+Package: ctpp2-utils
+Architecture: any
+Depends: ${shlibs:Depends},
+ ${misc:Depends}
+Description: Tools for ctpp template conversion
+ This package provides following tools to deal with ctpp templates
+ * ctpp2c - CTPP template compiler
+ * ctpp2i - CTPP template interpreter
+ * ctpp2-config - CTPP configuration tool
+ * ctpp2json - CTPP JSON file parser
+ * ctpp2vm - CTPP virtual machine
+
 Package: libctpp2
 Architecture: any
 Depends: ${shlibs:Depends},
@@ -35,7 +47,6 @@ Package: ctpp2-dev
 Architecture: all
 Depends: ${shlibs:Depends},
  ${misc:Depends}
-Multi-Arch: same
 Description: Development files for ctpp2 template engine
  This package provides header files for developing your applications to
  use ctpp2 template engine.
