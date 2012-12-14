@@ -39,5 +39,3 @@ Multi-Arch: same
 Description: Development files for ctpp2 template engine
  This package provides header files for developing your applications to
  use ctpp2 template engine.
-  
- 
