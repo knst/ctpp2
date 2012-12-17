@@ -4,7 +4,8 @@ Priority: optional
 Build-Depends: cdbs,
  debhelper,
  dh-buildinfo,
- devscripts
+ devscripts,
+ cmake
 Maintainer: Vasudev Kamath <kamathvasudev@gmail.com>
 Uploaders: Jonas Smedegaard <js@debian.org>
 Standards-Version: 3.9.4
