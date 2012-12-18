@@ -8,5 +8,5 @@ include /usr/share/cdbs/1/class/cmake.mk
 DEB_UPSTREAM_URL = http://ctpp.havoc.ru/download/
 DEB_UPSTREAM_TARBALL_MD5 = 1155b65e8ca8b844c631831e4a3e5644
 
-
+CDBS_BUILD_DEPENDS += cmake
 
