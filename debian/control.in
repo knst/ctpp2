@@ -21,7 +21,7 @@ Description: Tools for ctpp template conversion
  * ctpp2json - CTPP JSON file parser
  * ctpp2vm - CTPP virtual machine
 
-Package: libctpp2
+Package: libctpp2-2
 Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends}
