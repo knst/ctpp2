@@ -5,8 +5,21 @@ include /usr/share/cdbs/1/rules/upstream-tarball.mk
 include /usr/share/cdbs/1/rules/utils.mk
 include /usr/share/cdbs/1/class/cmake.mk
 
+# Handle Upstream releases
 DEB_UPSTREAM_URL = http://ctpp.havoc.ru/download/
 DEB_UPSTREAM_TARBALL_MD5 = 1155b65e8ca8b844c631831e4a3e5644
 
+# Build Dependencies
 CDBS_BUILD_DEPENDS += cmake
 
+# Multi-Arch support
+common-install-arch:: debian/libctpp2.install debian/ctpp2-dev.install debian/ctpp2-dev.links
+
+debian/libctpp2.install: debian/libctpp2.install.in
+	sed 's,@DEB_HOST_MULTIARCH@,$(DEB_HOST_MULTIARCH),g' $< >$@
+
+debian/ctpp2-dev.install: debian/ctpp2-dev.install.in
+	sed 's,@DEB_HOST_MULTIARCH@,$(DEB_HOST_MULTIARCH),g' $< >$@
+
+debian/ctpp2-dev.links: debian/ctpp2-dev.links.in
+	sed 's,@DEB_HOST_MULTIARCH@,$(DEB_HOST_MULTIARCH),g' $< >$@
