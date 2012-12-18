@@ -29,7 +29,7 @@ Package: libctpp2
 Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends}
-Multi-Arch: foreign
+Multi-Arch: same
 Description: HTML template engine for C++
  CTPP is a suitable choice for projects where a programmer and an HTML
  designer are different people. The goal of CTPP development was to
