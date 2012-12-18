@@ -228,7 +228,11 @@ Files: CMakeLists.txt
  debian/compat
  debian/control
  debian/control.in
+ debian/ctpp2-dev.install
+ debian/ctpp2-utils.install
+ debian/ctpp2-utils.manpages
  debian/gbp.conf
+ debian/libctpp2.install.in
  debian/patches/01_fix-getcwd-error.patch
  debian/patches/series
  debian/rules
