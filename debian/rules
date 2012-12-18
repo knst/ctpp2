@@ -18,7 +18,7 @@ CXX_WARN_FLAGS = -Wno-long-long -Wno-inline -finline-functions
 CXXFLAGS += $(CXX_PARAMS) $(CXX_WARN_FLAGS)
 
 # Multi-Arch support
-common-install-arch:: debian/libctpp2-2.install debian/ctpp2-dev.install debian/ctpp2-dev.links
+common-install-arch:: debian/ctpp2-dev.install debian/libctpp2-2.install debian/ctpp2-dev.links
 
 debian/libctpp2-2.install: debian/libctpp2-2.install.in
 	sed 's,@DEB_HOST_MULTIARCH@,$(DEB_HOST_MULTIARCH),g' $< >$@
