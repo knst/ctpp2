@@ -1,3 +1,4 @@
 01_fix-getcwd-error.patch
 02_fix-manpages.patch
 03_remove_upstream_cflags.patch
+04_fix-static-libname.patch

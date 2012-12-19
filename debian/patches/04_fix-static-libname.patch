@@ -1,0 +1,31 @@
+Description: Fix the name of static library
+ Upstream is naming static library differently than the
+ shared library they are generating. This causes d-shlibs
+ to break because it doesn't find proper library while trying
+ to generate -dev package. This patch fixes this naming
+Author: Vasudev Kamath <kamathvasudev@gmail.com>
+Forwarded: no
+Last-Update: 2012-12-19
+
+--- a/ctpp2.spec
++++ b/ctpp2.spec
+@@ -60,7 +60,7 @@ rm -rf %{buildroot}
+ %files devel
+ %defattr(-,root,root,-)
+ %{_includedir}/ctpp2
+-%{_libdir}/libctpp2-st.a
++%{_libdir}/libctpp2.a
+ 
+ %changelog
+ * Sat Nov 10 2012 Alexander Pankov <pianist@usrsrc.ru> - 2.8.3-0
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -416,7 +416,7 @@ SET(LIBSRCS
+ # Lib binary
+ #
+ ADD_LIBRARY(ctpp2-static STATIC ${LIBSRCS})
+-SET_TARGET_PROPERTIES(ctpp2-static PROPERTIES OUTPUT_NAME ctpp2-st)
++SET_TARGET_PROPERTIES(ctpp2-static PROPERTIES OUTPUT_NAME ctpp2)
+ SET_TARGET_PROPERTIES(ctpp2-static PROPERTIES LINKER_LANGUAGE CXX)
+ 
+ ADD_LIBRARY(ctpp2 SHARED ${LIBSRCS})
