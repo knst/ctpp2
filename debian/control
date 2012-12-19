@@ -3,9 +3,8 @@ Section: libs
 Priority: optional
 Build-Depends: cdbs,
  debhelper,
- dh-buildinfo,
- devscripts,
- cmake
+ cmake,
+ d-shlibs(>=0.48)
 Maintainer: Vasudev Kamath <kamathvasudev@gmail.com>
 Uploaders: Jonas Smedegaard <js@debian.org>
 Standards-Version: 3.9.4
@@ -19,17 +18,18 @@ Depends: ${shlibs:Depends},
  ${misc:Depends}
 Description: Tools for ctpp template conversion
  This package provides following tools to deal with ctpp templates
- * ctpp2c - CTPP template compiler
- * ctpp2i - CTPP template interpreter
- * ctpp2-config - CTPP configuration tool
- * ctpp2json - CTPP JSON file parser
- * ctpp2vm - CTPP virtual machine
+  * ctpp2c - CTPP template compiler
+  * ctpp2i - CTPP template interpreter
+  * ctpp2-config - CTPP configuration tool
+  * ctpp2json - CTPP JSON file parser
+  * ctpp2vm - CTPP virtual machine
 
 Package: libctpp2-2
 Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends}
-Pre-Depends: ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends},
+ ${cdbs:Pre-Depends}
 Multi-Arch: same
 Description: HTML template engine for C++
  CTPP is a suitable choice for projects where a programmer and an HTML
@@ -48,10 +48,15 @@ Description: HTML template engine for C++
   * Output data filters
   * User functions.
 
-Package: ctpp2-dev
+Package: libctpp2-2-dev
+Section: libdevel
 Architecture: all
-Depends: ${shlibs:Depends},
+Depends: libctpp2-2 (= ${binary:Version}),
+ ${devlibs:Depends}
  ${misc:Depends}
-Description: Development files for ctpp2 template engine
+Description: HTML template engine for C++ (development)
  This package provides header files for developing your applications to
  use ctpp2 template engine.
+ .
+ These header files allows you to utilize the library in your code to utilize
+ the ctpp2 template engine.
