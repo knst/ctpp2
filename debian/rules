@@ -1,30 +1,50 @@
 #!/usr/bin/make -f
 
+-include /usr/share/cdbs/1/rules/upstream-tarball.mk
 include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/rules/upstream-tarball.mk
 include /usr/share/cdbs/1/rules/utils.mk
 include /usr/share/cdbs/1/class/cmake.mk
+
+stem = ctpp2
+abi = 2
+libname = lib$(stem)
+libpkgname = lib$(stem)-$(abi)
+devpkgname = lib$(stem)-$(abi)-dev
+pkg = $(stem)-utils
+
+# Build Dependencies
+CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.48)
+
+# Supress optional build-dependencies
+CDBS_BUILD_DEPENDS_rules_upstream_tarball =
+CDBS_BUILD_DEPENDS_rules_utils_copyright-check =
+
+# Multiarch quirks (should ideally be resolved automagically)
+CDBS_BUILD_DEPENDS_rules_debhelper_buildinfo =
+CDBS_BUILD_DEPENDS_rules_buildcore_pkgrel =
+CDBS_PREDEPENDS = $(if $(DEB_HOST_MULTIARCH),multiarch-support)
 
 # Handle Upstream releases
 DEB_UPSTREAM_URL = http://ctpp.havoc.ru/download/
 DEB_UPSTREAM_TARBALL_MD5 = 1155b65e8ca8b844c631831e4a3e5644
-
-# Build Dependencies
-CDBS_BUILD_DEPENDS += cmake
 
 # Upstream used flags
 CXX_PARAMS = --param large-function-growth=5000 --param inline-unit-growth=600 -finline-limit=2000
 CXX_WARN_FLAGS = -Wno-long-long -Wno-inline -finline-functions
 CXXFLAGS += $(CXX_PARAMS) $(CXX_WARN_FLAGS)
 
-# Multi-Arch support
-common-install-arch:: debian/ctpp2-dev.install debian/libctpp2-2.install debian/ctpp2-dev.links
+# Let d-shlibs calculate development package dependencies
+#  and handle shared library install
+binary-post-install/$(libpkgname):: debian/stamp-local-shlibs-$(libname)
+debian/stamp-local-shlibs-$(libname): binary-install/$(libpkgname)
+	d-shlibmove --commit \
+		--multiarch \
+		--movedev "debian/tmp/usr/include/*" usr/include/ \
+		debian/tmp/usr/lib/$(libname).so
+	touch $@
+clean::
+	rm -f debian/stamp-local-shlibs-$(libname)
 
-debian/libctpp2-2.install: debian/libctpp2-2.install.in
-	sed 's,@DEB_HOST_MULTIARCH@,$(DEB_HOST_MULTIARCH),g' $< >$@
-
-debian/ctpp2-dev.install: debian/ctpp2-dev.install.in
-	sed 's,@DEB_HOST_MULTIARCH@,$(DEB_HOST_MULTIARCH),g' $< >$@
-
-debian/ctpp2-dev.links: debian/ctpp2-dev.links.in
-	sed 's,@DEB_HOST_MULTIARCH@,$(DEB_HOST_MULTIARCH),g' $< >$@
+# Install files for ctpp2-utils
+DEB_DH_INSTALL_ARGS_$(pkg) = usr/bin/*
+DEB_INSTALL_MANPAGES_$(pkg) = debian/tmp/usr/man/man1/*
