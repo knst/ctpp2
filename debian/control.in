@@ -22,6 +22,7 @@ Description: Tools for ctpp template conversion
   * ctpp2vm - CTPP virtual machine
 
 Package: libctpp2-2
+Section: libs
 Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends}
@@ -51,6 +52,8 @@ Architecture: all
 Depends: libctpp2-2 (= ${binary:Version}),
  ${devlibs:Depends}
  ${misc:Depends}
+Provides: libctpp2-dev
+Conflicts: libctpp2-dev
 Description: HTML template engine for C++ (development)
  This package provides header files for developing your applications to
  use ctpp2 template engine.
