@@ -51,7 +51,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libctpp2-2 (= ${binary:Version}),
- ${devlibs:Depends}
+ ${devlibs:Depends},
  ${misc:Depends}
 Provides: libctpp2-dev
 Conflicts: libctpp2-dev
