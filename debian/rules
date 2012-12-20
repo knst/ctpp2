@@ -33,12 +33,22 @@ CXX_PARAMS = --param large-function-growth=5000 --param inline-unit-growth=600 -
 CXX_WARN_FLAGS = -Wno-long-long -Wno-inline -finline-functions
 CXXFLAGS += $(CXX_PARAMS) $(CXX_WARN_FLAGS)
 
+# avoid unneeded .la file
+binary-post-install/$(libpkgname):: debian/stamp-local-strip-la
+debian/stamp-local-strip-la: binary-install/$(libpkgname)
+	find debian -type f -name '*.la' -delete
+	touch $@
+clean::
+	rm -f debian/stamp-local-strip-la
+
 # Let d-shlibs calculate development package dependencies
 #  and handle shared library install
 binary-post-install/$(libpkgname):: debian/stamp-local-shlibs-$(libname)
-debian/stamp-local-shlibs-$(libname): binary-install/$(libpkgname)
+debian/stamp-local-shlibs-$(libname): binary-install/$(libpkgname) debian/stamp-local-strip-la
 	d-shlibmove --commit \
 		--multiarch \
+		--override s/ld1-dev// \
+		--exclude-la \
 		--movedev "debian/tmp/usr/include/*" usr/include/ \
 		debian/tmp/usr/lib/$(libname).so
 	touch $@
