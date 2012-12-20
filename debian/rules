@@ -43,12 +43,10 @@ clean::
 
 # Let d-shlibs calculate development package dependencies
 #  and handle shared library install
-binary-post-install/$(libpkgname):: debian/stamp-local-shlibs-$(libname)
-debian/stamp-local-shlibs-$(libname): binary-install/$(libpkgname) debian/stamp-local-strip-la
+binary-post-install/$(libpkgname) binary-post-install/$(devpkgname):: debian/stamp-local-shlibs-$(libname)
+debian/stamp-local-shlibs-$(libname): binary-install/$(libpkgname) binary-install/$(devpkgname) debian/stamp-local-strip-la
 	d-shlibmove --commit \
 		--multiarch \
-		--override s/ld1-dev// \
-		--exclude-la \
 		--movedev "debian/tmp/usr/include/*" usr/include/ \
 		debian/tmp/usr/lib/$(libname).so
 	touch $@
