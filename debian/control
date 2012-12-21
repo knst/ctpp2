@@ -25,6 +25,7 @@ Description: Tools for ctpp template conversion
   * ctpp2vm - CTPP virtual machine
 
 Package: libctpp2-2
+Section: libs
 Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends}
