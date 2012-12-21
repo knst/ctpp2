@@ -1,5 +1,5 @@
-ctpp2 (2.8.3-1) UNRELEASED; urgency=low
+ctpp2 (2.8.3-1) unstable; urgency=low
 
   * Initial release. Closes: bug#695867
 
- -- Vasudev Kamath <kamathvasudev@gmail.com>  Thu, 13 Dec 2012 21:32:53 +0530
+ -- Vasudev Kamath <kamathvasudev@gmail.com>  Fri, 21 Dec 2012 10:37:14 +0530
