@@ -1,6 +1,6 @@
 Description: Fix the errors in man pages
- This patch fixes error in man pages like empty new lines and
- unclosed groff elements used for writing man pages
+ This patch fixes error in man pages like empty new lines and unclosed
+ groff elements used for writing man pages.
 Author: Vasudev Kamath <kamathvasudev@gmail.com>
 Last-Update: 2012-12-18
 Forwarded: no
