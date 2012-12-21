@@ -1,8 +1,6 @@
 Description: Fix the name of static library
- Upstream is naming static library differently than the
- shared library they are generating. This causes d-shlibs
- to break because it doesn't find proper library while trying
- to generate -dev package. This patch fixes this naming
+ Upstream named the static library in unusual way this patch names the
+ static library in simpler way which suits Debian infrastructure.
 Author: Vasudev Kamath <kamathvasudev@gmail.com>
 Forwarded: no
 Last-Update: 2012-12-19
