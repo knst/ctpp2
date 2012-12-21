@@ -3,45 +3,9 @@ Upstream-Contact: Andrei V. Shetukhin <reki@reki.ru>
 Upstream-Name: CTPP
 Source: http://ctpp.havoc.ru/
 
-Files: include/CTPP2Time.h
-Copyright: 1993, Intergraph Corporation.
-  1995, Microsoft Corporation.
-License: GPL-1 or Artistic
-Comment:
- This file can be distributed under GPL or Artistic License. Since
- version of GPL is not specifically mentioned we assume it as GPL-1
-
-License: GPL-1
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU General Public License version 1 as
- published by the Free Software Foundation.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU General Public
- License version can be found in "/usr/share/common-licenses/GPL-1".
-
-License: Artistic
- On Debian systems the 'Artistic License' is located in
- '/usr/share/common-licenses/Artistic'.
-
-Files: doc/bootstrap.css
-Copyright: 2012, Twitter, Inc
-License: Apache 2.0
-
-License: Apache 2.0
- On Debian systems the 'Apache License 2.0' is located in
- '/usr/share/common-licenses/Apache-2.0'
-
-Files: CodeStyle
-Copyright: 2004-2010, CTPP Team
-License: BSD-3-clause like
+Files: *
+Copyright: 2006-2010, CTPP Team
+License: BSD-3-clause~ctppteam
 
 Files: man/ctpp2-config.1
  man/ctpp2c.1
@@ -49,7 +13,7 @@ Files: man/ctpp2-config.1
  man/ctpp2json.1
  man/ctpp2vm.1
 Copyright: 2004-2010, CTPP Team
-License: BSD-3-clause like
+License: BSD-3-clause~ctppteam
 
 Files: CMakeLists.txt
  ClearPackage.cmd
@@ -106,9 +70,45 @@ Files: CMakeLists.txt
  tests/testdata/verbose_mode.out
  tests/testdata/verbose_mode.tmpl
 Copyright: CTPP Team
-License: BSD-3-clause like
+License: BSD-3-clause~ctppteam
 
-License: BSD-3-clause like
+Files: include/CTPP2Time.h
+Copyright: 1993, Intergraph Corporation.
+  1995, Microsoft Corporation.
+License: GPL-1 or Artistic
+Comment:
+ This file can be distributed under GPL or Artistic License. Since
+ version of GPL is not specifically mentioned we assume it as GPL-1
+
+License: GPL-1
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 1 as
+ published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version can be found in "/usr/share/common-licenses/GPL-1".
+
+License: Artistic
+ On Debian systems the 'Artistic License' is located in
+ '/usr/share/common-licenses/Artistic'.
+
+Files: doc/bootstrap.css
+Copyright: 2012, Twitter, Inc
+License: Apache 2.0
+
+License: Apache 2.0
+ On Debian systems the 'Apache License 2.0' is located in
+ '/usr/share/common-licenses/Apache-2.0'
+
+License: BSD-3-clause~ctppteam
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
