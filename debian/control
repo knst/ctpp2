@@ -17,7 +17,13 @@ Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends}
 Description: Tools for ctpp template conversion
- This package provides following tools to deal with ctpp templates
+ CTPP is a suitable choice for projects where a programmer and an HTML
+ designer are different people. The goal of CTPP development was to
+ achieve maximum performance with minimal basic functionality that is
+ easily expandable. In other words, any conceivable capabilities can
+ be added by writing users functions.
+ .
+ This package provides following tools to deal with ctpp templates:
   * ctpp2c - CTPP template compiler
   * ctpp2i - CTPP template interpreter
   * ctpp2-config - CTPP configuration tool
@@ -39,7 +45,7 @@ Description: HTML template engine for C++
  easily expandable. In other words, any conceivable capabilities can
  be added by writing users functions.
  .
- CTPP has following advantages over other template engines
+ CTPP has following advantages over other template engines:
   * Very High performace as this is written in C++.
   * Flexible syntax of templates.
   * Robustness
@@ -59,9 +65,15 @@ Depends: libctpp2-2 (= ${binary:Version}),
 Provides: libctpp2-dev
 Conflicts: libctpp2-dev
 Description: HTML template engine for C++ (development)
+ CTPP is a suitable choice for projects where a programmer and an HTML
+ designer are different people. The goal of CTPP development was to
+ achieve maximum performance with minimal basic functionality that is
+ easily expandable. In other words, any conceivable capabilities can
+ be added by writing users functions.
+ .
  This package provides header files for developing your applications to
  use ctpp2 template engine.
  .
- These header files allows you to utilize the library in your code to utilize
- the ctpp2 template engine.
+ These header files allows you to utilize the library in your code to
+ utilize the ctpp2 template engine.
  .
