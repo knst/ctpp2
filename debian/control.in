@@ -14,7 +14,7 @@ Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends}
 Description: Tools for ctpp template conversion
- This package provides following tools to deal with ctpp templates
+ This package provides following tools to deal with ctpp templates:
   * ctpp2c - CTPP template compiler
   * ctpp2i - CTPP template interpreter
   * ctpp2-config - CTPP configuration tool
@@ -36,7 +36,7 @@ Description: HTML template engine for C++
  easily expandable. In other words, any conceivable capabilities can
  be added by writing users functions.
  .
- CTPP has following advantages over other template engines
+ CTPP has following advantages over other template engines:
   * Very High performace as this is written in C++.
   * Flexible syntax of templates.
   * Robustness
