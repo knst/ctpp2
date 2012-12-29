@@ -316,7 +316,7 @@ License: BSD-3-clause
 Files: debian/*
 Copyright: Jonas Smedegaard <js@debian.org>
  Vasudev Kamath <kamathvasudev@gmail.com>
-License: BSD-3-clause
+License: GPL-2+
 
 License: BSD-3-clause~ctppteam
  Redistribution and use in source and binary forms, with or without
