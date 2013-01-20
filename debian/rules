@@ -49,7 +49,7 @@ DEB_INSTALL_DOCS_$(stem)-doc += doc/html
 # Build Documentation
 common-build-indep:: debian/stamp-docs
 debian/stamp-docs:
-	[ ! -f /usr/bin/doxygen ] || $(DEB_MAKE_INVOKE) doxy
+	[ ! -f /usr/bin/doxygen ] || doxygen ${DEB_SRCDIR}/Doxyfile
 	touch $@
 clean::
 	rm -f debian/stamp-docs
