@@ -2,4 +2,4 @@
 1002_fix-manpages.patch
 2001_remove-upstream-cflags.patch
 2002_fix-static-libname.patch
-1003_upgrade-and-fix-doxyfile.patch
+1003_fix-doxyfile.patch
