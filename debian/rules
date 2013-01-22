@@ -19,7 +19,7 @@ devpkgname = lib$(stem)-dev
 utilspkg = $(stem)-utils
 
 # Build Dependencies
-CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.48), graphviz, libssl-dev
+CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.48), graphviz
 
 # Supress optional build-dependencies
 CDBS_BUILD_DEPENDS_rules_upstream_tarball =
