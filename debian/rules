@@ -46,6 +46,9 @@ DEB_INSTALL_MANPAGES_$(utilspkg) = debian/tmp/usr/man/man1/*
 # Install documentation
 DEB_INSTALL_DOCS_$(stem)-doc += doc/html
 
+# Disable libssl linking
+DEB_CMAKE_NORMAL_ARGS += -DMD5_SUPPORT=0
+
 # Upgrade Doxyfile
 common-configure-indep:: debian/stamp-doxyupgrade
 debian/stamp-doxyupgrade:
