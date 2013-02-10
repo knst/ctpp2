@@ -1,5 +1,7 @@
 ctpp2 (2.8.3-1) unstable; urgency=low
 
-  * Initial release. Closes: bug#695867
+  [ Vasudev Kamath ]
+  * Initial release.
+    Closes: bug#695867.
 
- -- Vasudev Kamath <kamathvasudev@gmail.com>  Fri, 21 Dec 2012 10:37:14 +0530
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 10 Feb 2013 15:27:06 +0100
