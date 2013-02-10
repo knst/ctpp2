@@ -49,12 +49,14 @@ DEB_INSTALL_DOCS_$(stem)-doc += doc/html
 # Disable libssl linking
 DEB_CMAKE_NORMAL_ARGS += -DMD5_SUPPORT=0
 
-# Upgrade Doxyfile
+# Upgrade Doxyfile, and use SVG graphics
+DEB_COMPRESS_EXCLUDE_DEFAULT += .xhtml
 common-configure-indep:: debian/stamp-doxyupgrade
 debian/stamp-doxyupgrade:
 	[ ! -f /usr/bin/doxygen ] || ( set -e; \
 		cp ${DEB_SRCDIR}/Doxyfile ${DEB_SRCDIR}/Doxyfile.orig; \
 		doxygen -u ${DEB_SRCDIR}/Doxyfile; \
+		perl -i -pe 's/DOT_IMAGE_FORMAT\K.*/=svg/;s/HTML_FILE_EXTENSION\K.*/=.xhtml/' ${DEB_SRCDIR}/Doxyfile; \
 	)
 	touch $@
 clean::
