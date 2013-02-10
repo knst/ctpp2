@@ -283,7 +283,7 @@ Files: CTPP2SysHeaders.h.cmake
  tests/VMCodeStackTest.cpp
  tests/VMDumperTest.cpp
 Copyright: 2004-2011, CTPP Team
-License: BSD-3-clause
+License: BSD-3-clause~ctppteam
 
 Files: include/STLException.hpp
  include/STLFunctional.hpp
@@ -294,7 +294,7 @@ Files: include/STLException.hpp
  include/STLString.hpp
  include/STLVector.hpp
 Copyright: 2005-2011, CAS Dev Team
-License: BSD-3-clause
+License: BSD-3-clause~casdevteam
 
 Files: tests/CTPP2Compiler.cpp
  tests/CTPP2Emulator.cpp
@@ -302,16 +302,16 @@ Files: tests/CTPP2Compiler.cpp
  tests/CTPP2JSONParser.cpp
  tests/VMEmulator.cpp
 Copyright: 2004-2011, CTPP Dev. Team
-License: BSD-3-clause
+License: BSD-3-clause~ctppteam
 
 Files: include/CTPP2GlobalDefines.h
 Copyright: 1987-1993, The Regents of the University of California
   2004-2010, CTPP Team
-License: BSD-3-clause
+License: BSD-3-clause~ctppteam
 
 Files: src/functions/FnVersion.cpp
 Copyright: 2004-2012, CTPP Dev Team
-License: BSD-3-clause
+License: BSD-3-clause~ctppteam
 
 Files: debian/*
 Copyright: Jonas Smedegaard <js@debian.org>
@@ -343,7 +343,7 @@ License: BSD-3-clause~ctppteam
  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  SUCH DAMAGE.
 
-License: BSD-3-clause
+License: BSD-3-clause~casdevteam
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
@@ -353,7 +353,7 @@ License: BSD-3-clause
     notice, this list of conditions and the following disclaimer in
     the documentation and/or other materials provided with the
     distribution.
- 3. Neither the name of the University nor the names of its
+ 4. Neither the name of the CAS Dev. Team nor the names of its
     contributors may be used to endorse or promote products derived
     from this software without specific prior written permission.
  .
