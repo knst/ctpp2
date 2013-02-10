@@ -112,8 +112,8 @@ License: GPL-2+
 License: GPL-1
  Comment:
  .
- On Debian systems, the complete text of the GNU General Public
- License version can be found in "/usr/share/common-licenses/GPL-1".
+ On Debian systems the 'GNU General Public License' version 1 is located
+ in '/usr/share/common-licenses/GPL-1'.
 
 License: Artistic
  Comment:
