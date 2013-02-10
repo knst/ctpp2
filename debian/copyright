@@ -14,8 +14,13 @@ License: GPL-1 or Artistic
 Comment:
  License:
  .
- This file can be distributed under GPL or Artistic License. Since
- version of GPL is not specifically mentioned we assume it as GPL-1
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the README file.
+ .
+ Comment:
+ .
+ The referenced README file is missing. It is assumed to contain the
+ "Artistic license" and "GNU General Public License" version 1.
 
 Files: doc/bootstrap.css
 Copyright: 2012, Twitter, Inc
