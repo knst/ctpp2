@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Contact: Andrei V. Shetukhin <reki@reki.ru>
 Upstream-Name: CT++
-Source: http://ctpp.havoc.ru/
+Source: http://ctpp.havoc.ru/download/
 
 Files: *
 Copyright: 2006-2010, CTPP Team
