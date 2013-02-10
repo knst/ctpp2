@@ -62,6 +62,7 @@ debian/stamp-doxyupgrade:
 clean::
 	[ ! -f ${DEB_SRCDIR}/Doxyfile.orig ] || \
 		cp ${DEB_SRCDIR}/Doxyfile.orig ${DEB_SRCDIR}/Doxyfile
+	rm -f ${DEB_SRCDIR}/Doxyfile.bak
 	rm -f debian/stamp-doxyupgrade
 
 # Build Documentation
