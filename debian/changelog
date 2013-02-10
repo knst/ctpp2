@@ -1,3 +1,12 @@
+ctpp2 (2.8.3-2) unstable; urgency=low
+
+  * Fix my email address in control file Uploaders field.
+  * Fix cleanup after Doxygen config update.
+  * Tweak Doxygen to use SVG instead of PNG, reducing documentation size
+    by more than 80%.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 10 Feb 2013 20:38:35 +0100
+
 ctpp2 (2.8.3-1) unstable; urgency=low
 
   [ Vasudev Kamath ]
