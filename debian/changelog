@@ -1,3 +1,9 @@
+ctpp2 (2.8.3-3) unstable; urgency=low
+
+  * Fix use xhtml suffix in doc-base file.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Thu, 14 Feb 2013 16:47:15 +0100
+
 ctpp2 (2.8.3-2) unstable; urgency=low
 
   * Fix my email address in control file Uploaders field.
