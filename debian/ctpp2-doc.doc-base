@@ -5,5 +5,5 @@ Abstract: This manual describes APIs given by libctpp2-2
 Section: Programming/C++
 
 Format: HTML
-Index: /usr/share/doc/ctpp2-doc/html/index.html
-Files: /usr/share/doc/ctpp2-doc/html/*.html
+Index: /usr/share/doc/ctpp2-doc/html/index.xhtml
+Files: /usr/share/doc/ctpp2-doc/html/*.xhtml
