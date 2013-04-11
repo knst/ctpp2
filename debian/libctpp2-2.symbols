@@ -39,7 +39,7 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP10SortHelperC1ERKNS_3CDT17SortingComparatorE@Base 2.8.3
  _ZN4CTPP10SortHelperC2ERKNS_3CDT17SortingComparatorE@Base 2.8.3
  _ZN4CTPP10StaticData10StoreFloatEd@Base 2.8.3
- _ZN4CTPP10StaticData8StoreIntEm@Base 2.8.3
+ (c++)"CTPP::StaticData::StoreInt(unsigned long)@Base 2.8.3"
  _ZN4CTPP10StaticDataC1EPKNS_13StaticDataVarEj@Base 2.8.3
  _ZN4CTPP10StaticDataC1Ej@Base 2.8.3
  _ZN4CTPP10StaticDataC2EPKNS_13StaticDataVarEj@Base 2.8.3
@@ -57,7 +57,7 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP10VMArgStack10GetElementEi@Base 2.8.3
  _ZN4CTPP10VMArgStack10PopElementEv@Base 2.8.3
  _ZN4CTPP10VMArgStack11PushElementERKNS_3CDTE@Base 2.8.3
- _ZN4CTPP10VMArgStack13GetTopElementEi@Base 2.8.3
+ (c++)"CTPP::VMArgStack::GetTopElement(int)@Base 2.8.3"
  _ZN4CTPP10VMArgStack15SaveBasePointerEj@Base 2.8.3
  _ZN4CTPP10VMArgStack18RestoreBasePointerEv@Base 2.8.3
  _ZN4CTPP10VMArgStack5ResetEv@Base 2.8.3
@@ -166,8 +166,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP11FnXMLEscapeD0Ev@Base 2.8.3
  _ZN4CTPP11FnXMLEscapeD1Ev@Base 2.8.3
  _ZN4CTPP11FnXMLEscapeD2Ev@Base 2.8.3
- _ZN4CTPP11InvalidCallC1EjmPKcS2_@Base 2.8.3
- _ZN4CTPP11InvalidCallC2EjmPKcS2_@Base 2.8.3
+ (c++)"CTPP::InvalidCall::InvalidCall(unsigned int, unsigned long, char const*, char const*)@Base 2.8.3"
+ (c++)"CTPP::InvalidCall::InvalidCall(unsigned int, unsigned long, char const*, char const*)@Base 2.8.3"
  _ZN4CTPP11InvalidCallD0Ev@Base 2.8.3
  _ZN4CTPP11InvalidCallD1Ev@Base 2.8.3
  _ZN4CTPP11InvalidCallD2Ev@Base 2.8.3
@@ -182,10 +182,10 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP11VMCodeStackD2Ev@Base 2.8.3
  _ZN4CTPP11VMDebugInfoC1ERKNS_12CharIteratorIKcEEj@Base 2.8.3
  _ZN4CTPP11VMDebugInfoC1Ejjj@Base 2.8.3
- _ZN4CTPP11VMDebugInfoC1Em@Base 2.8.3
+ (c++)"CTPP::VMDebugInfo::VMDebugInfo(unsigned long)@Base 2.8.3"
  _ZN4CTPP11VMDebugInfoC2ERKNS_12CharIteratorIKcEEj@Base 2.8.3
  _ZN4CTPP11VMDebugInfoC2Ejjj@Base 2.8.3
- _ZN4CTPP11VMDebugInfoC2Em@Base 2.8.3
+ (c++)"CTPP::VMDebugInfo::VMDebugInfo(unsigned long)@Base 2.8.3"
  _ZN4CTPP11VMExceptionD0Ev@Base 2.8.3
  _ZN4CTPP11VMExceptionD1Ev@Base 2.8.3
  _ZN4CTPP11VMExceptionD2Ev@Base 2.8.3
@@ -195,12 +195,12 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP12CTPP2GetText10ReadMODataEPKhi@Base 2.8.3
  _ZN4CTPP12CTPP2GetText11FindMessageERKSsS2_S2_@Base 2.8.3
  _ZN4CTPP12CTPP2GetText11SetLanguageERNS_14SyscallFactoryERKSs@Base 2.8.3
- _ZN4CTPP12CTPP2GetText12CTPP2CatalogC1ERKS1_@Base 2.8.3
- _ZN4CTPP12CTPP2GetText12CTPP2CatalogC2ERKS1_@Base 2.8.3
- _ZN4CTPP12CTPP2GetText12CTPP2CatalogD1Ev@Base 2.8.3
- _ZN4CTPP12CTPP2GetText12CTPP2CatalogD2Ev@Base 2.8.3
- _ZN4CTPP12CTPP2GetText12IsLtOrGtExprERKSsm@Base 2.8.3
- _ZN4CTPP12CTPP2GetText13IsTernaryExprERKSsm@Base 2.8.3
+ (c++)"CTPP::CTPP2GetText::CTPP2Catalog::CTPP2Catalog(CTPP::CTPP2GetText::CTPP2Catalog const_ZN4CTPP12CTPP2GetText12CTPP2CatalogC1ERKS1_@Base 2.8.3)@Base 2.8.3"
+ (c++)"CTPP::CTPP2GetText::CTPP2Catalog::CTPP2Catalog(CTPP::CTPP2GetText::CTPP2Catalog const_ZN4CTPP12CTPP2GetText12CTPP2CatalogC2ERKS1_@Base 2.8.3)@Base 2.8.3"
+ (c++)"CTPP::CTPP2GetText::CTPP2Catalog::~CTPP2Catalog()@Base 2.8.3"
+ (c++)"CTPP::CTPP2GetText::CTPP2Catalog::~CTPP2Catalog()@Base 2.8.3"
+ (c++)"CTPP::CTPP2GetText::IsLtOrGtExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const(c++)"CTPP::CTPP2GetText::IsLtOrGtExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const_ZN4CTPP12CTPP2GetText12IsLtOrGtExprERKSsm@Base 2.8.3, unsigned long)@Base 2.8.3", unsigned long)@Base 2.8.3"
+ (c++)"CTPP::CTPP2GetText::IsTernaryExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const(c++)"CTPP::CTPP2GetText::IsTernaryExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const_ZN4CTPP12CTPP2GetText13IsTernaryExprERKSsm@Base 2.8.3, unsigned long)@Base 2.8.3", unsigned long)@Base 2.8.3"
  _ZN4CTPP12CTPP2GetText13ParseMetadataERKSs@Base 2.8.3
  _ZN4CTPP12CTPP2GetText14AddTranslationERKSsS2_S2_@Base 2.8.3
  _ZN4CTPP12CTPP2GetText14ExtractMessageEPKhjii@Base 2.8.3
@@ -211,12 +211,12 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP12CTPP2GetText18InitSTDLibFunctionERNS_14SyscallFactoryE@Base 2.8.3
  _ZN4CTPP12CTPP2GetText19CalculatePluralFormEjRKSsS2_@Base 2.8.3
  _ZN4CTPP12CTPP2GetText20StringifyInstructionENS0_17eCTPP2InstructionE@Base 2.8.3
- _ZN4CTPP12CTPP2GetText6IsTermERKSsm@Base 2.8.3
- _ZN4CTPP12CTPP2GetText8IsEqExprERKSsm@Base 2.8.3
- _ZN4CTPP12CTPP2GetText8IsOrExprERKSsm@Base 2.8.3
+ (c++)"CTPP::CTPP2GetText::IsTerm(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const(c++)"CTPP::CTPP2GetText::IsTerm(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const_ZN4CTPP12CTPP2GetText6IsTermERKSsm@Base 2.8.3, unsigned long)@Base 2.8.3", unsigned long)@Base 2.8.3"
+ (c++)"CTPP::CTPP2GetText::IsEqExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const(c++)"CTPP::CTPP2GetText::IsEqExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const_ZN4CTPP12CTPP2GetText8IsEqExprERKSsm@Base 2.8.3, unsigned long)@Base 2.8.3", unsigned long)@Base 2.8.3"
+ (c++)"CTPP::CTPP2GetText::IsOrExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const(c++)"CTPP::CTPP2GetText::IsOrExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const_ZN4CTPP12CTPP2GetText8IsOrExprERKSsm@Base 2.8.3, unsigned long)@Base 2.8.3", unsigned long)@Base 2.8.3"
  _ZN4CTPP12CTPP2GetText8ReadFileEPKcRj@Base 2.8.3
- _ZN4CTPP12CTPP2GetText9IsAndExprERKSsm@Base 2.8.3
- _ZN4CTPP12CTPP2GetText9IsModExprERKSsm@Base 2.8.3
+ (c++)"CTPP::CTPP2GetText::IsAndExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const(c++)"CTPP::CTPP2GetText::IsAndExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const_ZN4CTPP12CTPP2GetText9IsAndExprERKSsm@Base 2.8.3, unsigned long)@Base 2.8.3", unsigned long)@Base 2.8.3"
+ (c++)"CTPP::CTPP2GetText::IsModExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const(c++)"CTPP::CTPP2GetText::IsModExpr(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const_ZN4CTPP12CTPP2GetText9IsModExprERKSsm@Base 2.8.3, unsigned long)@Base 2.8.3", unsigned long)@Base 2.8.3"
  _ZN4CTPP12CTPP2GetTextC1Ev@Base 2.8.3
  _ZN4CTPP12CTPP2GetTextC2Ev@Base 2.8.3
  _ZN4CTPP12CTPP2GetTextD1Ev@Base 2.8.3
@@ -271,8 +271,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP12VMFileLoaderD2Ev@Base 2.8.3
  _ZN4CTPP12VMMemoryCoreC1EPKNS_12VMExecutableE@Base 2.8.3
  _ZN4CTPP12VMMemoryCoreC2EPKNS_12VMExecutableE@Base 2.8.3
- _ZN4CTPP12ZeroDivisionC1EjmPKc@Base 2.8.3
- _ZN4CTPP12ZeroDivisionC2EjmPKc@Base 2.8.3
+ (c++)"CTPP::ZeroDivision::ZeroDivision(unsigned int, unsigned long, char const*)@Base 2.8.3"
+ (c++)"CTPP::ZeroDivision::ZeroDivision(unsigned int, unsigned long, char const*)@Base 2.8.3"
  _ZN4CTPP12ZeroDivisionD0Ev@Base 2.8.3
  _ZN4CTPP12ZeroDivisionD1Ev@Base 2.8.3
  _ZN4CTPP12ZeroDivisionD2Ev@Base 2.8.3
@@ -294,7 +294,7 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP13CTPP2Compiler15StoreSourceNameEPKcj@Base 2.8.3
  _ZN4CTPP13CTPP2Compiler16OutputStaticDataEPKcjRKNS_11VMDebugInfoE@Base 2.8.3
  _ZN4CTPP13CTPP2Compiler16OutputStaticDataERKdRKNS_11VMDebugInfoE@Base 2.8.3
- _ZN4CTPP13CTPP2Compiler16OutputStaticDataERKlRKNS_11VMDebugInfoE@Base 2.8.3
+ (c++)"CTPP::CTPP2Compiler::OutputStaticData(long const(c++)"CTPP::CTPP2Compiler::OutputStaticData(long const_ZN4CTPP13CTPP2Compiler16OutputStaticDataERKlRKNS_11VMDebugInfoE@Base 2.8.3, CTPP::VMDebugInfo const_ZN4CTPP13CTPP2Compiler16OutputStaticDataERKlRKNS_11VMDebugInfoE@Base 2.8.3)@Base 2.8.3", CTPP::VMDebugInfo const(c++)"CTPP::CTPP2Compiler::OutputStaticData(long const_ZN4CTPP13CTPP2Compiler16OutputStaticDataERKlRKNS_11VMDebugInfoE@Base 2.8.3, CTPP::VMDebugInfo const_ZN4CTPP13CTPP2Compiler16OutputStaticDataERKlRKNS_11VMDebugInfoE@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
  _ZN4CTPP13CTPP2Compiler16PrepareCallBlockERKNS_11VMDebugInfoE@Base 2.8.3
  _ZN4CTPP13CTPP2Compiler17PrepareLocalScopeERKNS_11VMDebugInfoE@Base 2.8.3
  _ZN4CTPP13CTPP2Compiler17PushBlockVariableEjRKNS_11VMDebugInfoE@Base 2.8.3
@@ -322,7 +322,7 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP13CTPP2Compiler6NEJumpEjRKNS_11VMDebugInfoE@Base 2.8.3
  _ZN4CTPP13CTPP2Compiler6OpIDivERKNS_11VMDebugInfoE@Base 2.8.3
  _ZN4CTPP13CTPP2Compiler6OpSCmpERKNS_11VMDebugInfoE@Base 2.8.3
- _ZN4CTPP13CTPP2Compiler7PushIntERKlRKNS_11VMDebugInfoE@Base 2.8.3
+ (c++)"CTPP::CTPP2Compiler::PushInt(long const(c++)"CTPP::CTPP2Compiler::PushInt(long const_ZN4CTPP13CTPP2Compiler7PushIntERKlRKNS_11VMDebugInfoE@Base 2.8.3, CTPP::VMDebugInfo const_ZN4CTPP13CTPP2Compiler7PushIntERKlRKNS_11VMDebugInfoE@Base 2.8.3)@Base 2.8.3", CTPP::VMDebugInfo const(c++)"CTPP::CTPP2Compiler::PushInt(long const_ZN4CTPP13CTPP2Compiler7PushIntERKlRKNS_11VMDebugInfoE@Base 2.8.3, CTPP::VMDebugInfo const_ZN4CTPP13CTPP2Compiler7PushIntERKlRKNS_11VMDebugInfoE@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
  _ZN4CTPP13CTPP2Compiler7REQJumpEjRKNS_11VMDebugInfoE@Base 2.8.3
  _ZN4CTPP13CTPP2Compiler7RGEJumpEjRKNS_11VMDebugInfoE@Base 2.8.3
  _ZN4CTPP13CTPP2Compiler7RGTJumpEjRKNS_11VMDebugInfoE@Base 2.8.3
@@ -353,8 +353,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP13FnMBSubstringD0Ev@Base 2.8.3
  _ZN4CTPP13FnMBSubstringD1Ev@Base 2.8.3
  _ZN4CTPP13FnMBSubstringD2Ev@Base 2.8.3
- _ZN4CTPP13IllegalOpcodeC1EjjmPKc@Base 2.8.3
- _ZN4CTPP13IllegalOpcodeC2EjjmPKc@Base 2.8.3
+ (c++)"CTPP::IllegalOpcode::IllegalOpcode(unsigned int, unsigned int, unsigned long, char const*)@Base 2.8.3"
+ (c++)"CTPP::IllegalOpcode::IllegalOpcode(unsigned int, unsigned int, unsigned long, char const*)@Base 2.8.3"
  _ZN4CTPP13IllegalOpcodeD0Ev@Base 2.8.3
  _ZN4CTPP13IllegalOpcodeD1Ev@Base 2.8.3
  _ZN4CTPP13IllegalOpcodeD2Ev@Base 2.8.3
@@ -380,8 +380,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP14FnBase64EncodeD0Ev@Base 2.8.3
  _ZN4CTPP14FnBase64EncodeD1Ev@Base 2.8.3
  _ZN4CTPP14FnBase64EncodeD2Ev@Base 2.8.3
- _ZN4CTPP14InvalidSyscallC1EPKcjmS2_@Base 2.8.3
- _ZN4CTPP14InvalidSyscallC2EPKcjmS2_@Base 2.8.3
+ (c++)"CTPP::InvalidSyscall::InvalidSyscall(char const*, unsigned int, unsigned long, char const*)@Base 2.8.3"
+ (c++)"CTPP::InvalidSyscall::InvalidSyscall(char const*, unsigned int, unsigned long, char const*)@Base 2.8.3"
  _ZN4CTPP14InvalidSyscallD0Ev@Base 2.8.3
  _ZN4CTPP14InvalidSyscallD1Ev@Base 2.8.3
  _ZN4CTPP14InvalidSyscallD2Ev@Base 2.8.3
@@ -492,8 +492,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP18CDTAccessExceptionD0Ev@Base 2.8.3
  _ZN4CTPP18CDTAccessExceptionD1Ev@Base 2.8.3
  _ZN4CTPP18CDTAccessExceptionD2Ev@Base 2.8.3
- _ZN4CTPP18CodeSegmentOverrunC1EjmPKc@Base 2.8.3
- _ZN4CTPP18CodeSegmentOverrunC2EjmPKc@Base 2.8.3
+ (c++)"CTPP::CodeSegmentOverrun::CodeSegmentOverrun(unsigned int, unsigned long, char const*)@Base 2.8.3"
+ (c++)"CTPP::CodeSegmentOverrun::CodeSegmentOverrun(unsigned int, unsigned long, char const*)@Base 2.8.3"
  _ZN4CTPP18CodeSegmentOverrunD0Ev@Base 2.8.3
  _ZN4CTPP18CodeSegmentOverrunD1Ev@Base 2.8.3
  _ZN4CTPP18CodeSegmentOverrunD2Ev@Base 2.8.3
@@ -537,8 +537,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP21CTPPParserSyntaxErrorD0Ev@Base 2.8.3
  _ZN4CTPP21CTPPParserSyntaxErrorD1Ev@Base 2.8.3
  _ZN4CTPP21CTPPParserSyntaxErrorD2Ev@Base 2.8.3
- _ZN4CTPP21ExecutionLimitReachedC1EjmPKc@Base 2.8.3
- _ZN4CTPP21ExecutionLimitReachedC2EjmPKc@Base 2.8.3
+ (c++)"CTPP::ExecutionLimitReached::ExecutionLimitReached(unsigned int, unsigned long, char const*)@Base 2.8.3"
+ (c++)"CTPP::ExecutionLimitReached::ExecutionLimitReached(unsigned int, unsigned long, char const*)@Base 2.8.3"
  _ZN4CTPP21ExecutionLimitReachedD0Ev@Base 2.8.3
  _ZN4CTPP21ExecutionLimitReachedD1Ev@Base 2.8.3
  _ZN4CTPP21ExecutionLimitReachedD2Ev@Base 2.8.3
@@ -632,8 +632,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP3CDT6AppendEd@Base 2.8.3
  _ZN4CTPP3CDT6AppendEi@Base 2.8.3
  _ZN4CTPP3CDT6AppendEj@Base 2.8.3
- _ZN4CTPP3CDT6AppendEl@Base 2.8.3
- _ZN4CTPP3CDT6AppendEm@Base 2.8.3
+ (c++)"CTPP::CDT::Append(long)@Base 2.8.3"
+ (c++)"CTPP::CDT::Append(unsigned long)@Base 2.8.3"
  _ZN4CTPP3CDT6ConcatEPKci@Base 2.8.3
  _ZN4CTPP3CDT6ConcatERKSs@Base 2.8.3
  _ZN4CTPP3CDT7DestroyEv@Base 2.8.3
@@ -643,8 +643,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP3CDT7PrependEd@Base 2.8.3
  _ZN4CTPP3CDT7PrependEi@Base 2.8.3
  _ZN4CTPP3CDT7PrependEj@Base 2.8.3
- _ZN4CTPP3CDT7PrependEl@Base 2.8.3
- _ZN4CTPP3CDT7PrependEm@Base 2.8.3
+ (c++)"CTPP::CDT::Prepend(long)@Base 2.8.3"
+ (c++)"CTPP::CDT::Prepend(unsigned long)@Base 2.8.3"
  _ZN4CTPP3CDT7ToFloatEv@Base 2.8.3
  _ZN4CTPP3CDT7UnshareEv@Base 2.8.3
  _ZN4CTPP3CDT8DumpDataEjjRKS0_RSsb@Base 2.8.3
@@ -666,8 +666,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP3CDT8PushBackEd@Base 2.8.3
  _ZN4CTPP3CDT8PushBackEi@Base 2.8.3
  _ZN4CTPP3CDT8PushBackEj@Base 2.8.3
- _ZN4CTPP3CDT8PushBackEl@Base 2.8.3
- _ZN4CTPP3CDT8PushBackEm@Base 2.8.3
+ (c++)"CTPP::CDT::PushBack(long)@Base 2.8.3"
+ (c++)"CTPP::CDT::PushBack(unsigned long)@Base 2.8.3"
  _ZN4CTPP3CDT8ToStringEPKc@Base 2.8.3
  _ZN4CTPP3CDT9SortArrayERKNS0_17SortingComparatorE@Base 2.8.3
  _ZN4CTPP3CDTC1EPKc@Base 2.8.3
@@ -678,8 +678,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP3CDTC1Ed@Base 2.8.3
  _ZN4CTPP3CDTC1Ei@Base 2.8.3
  _ZN4CTPP3CDTC1Ej@Base 2.8.3
- _ZN4CTPP3CDTC1El@Base 2.8.3
- _ZN4CTPP3CDTC1Em@Base 2.8.3
+ (c++)"CTPP::CDT::CDT(long)@Base 2.8.3"
+ (c++)"CTPP::CDT::CDT(unsigned long)@Base 2.8.3"
  _ZN4CTPP3CDTC2EPKc@Base 2.8.3
  _ZN4CTPP3CDTC2EPv@Base 2.8.3
  _ZN4CTPP3CDTC2ERKNS0_8eValTypeE@Base 2.8.3
@@ -688,8 +688,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP3CDTC2Ed@Base 2.8.3
  _ZN4CTPP3CDTC2Ei@Base 2.8.3
  _ZN4CTPP3CDTC2Ej@Base 2.8.3
- _ZN4CTPP3CDTC2El@Base 2.8.3
- _ZN4CTPP3CDTC2Em@Base 2.8.3
+ (c++)"CTPP::CDT::CDT(long)@Base 2.8.3"
+ (c++)"CTPP::CDT::CDT(unsigned long)@Base 2.8.3"
  _ZN4CTPP3CDTD1Ev@Base 2.8.3
  _ZN4CTPP3CDTD2Ev@Base 2.8.3
  _ZN4CTPP3CDTaSEPKc@Base 2.8.3
@@ -699,36 +699,36 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP3CDTaSEd@Base 2.8.3
  _ZN4CTPP3CDTaSEi@Base 2.8.3
  _ZN4CTPP3CDTaSEj@Base 2.8.3
- _ZN4CTPP3CDTaSEl@Base 2.8.3
- _ZN4CTPP3CDTaSEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator=(long)@Base 2.8.3"
+ (c++)"CTPP::CDT::operator=(unsigned long)@Base 2.8.3"
  _ZN4CTPP3CDTdVERKS0_@Base 2.8.3
  _ZN4CTPP3CDTdVEd@Base 2.8.3
  _ZN4CTPP3CDTdVEi@Base 2.8.3
  _ZN4CTPP3CDTdVEj@Base 2.8.3
- _ZN4CTPP3CDTdVEl@Base 2.8.3
- _ZN4CTPP3CDTdVEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator/=(long)@Base 2.8.3"
+ (c++)"CTPP::CDT::operator/=(unsigned long)@Base 2.8.3"
  _ZN4CTPP3CDTixERKSs@Base 2.8.3
  _ZN4CTPP3CDTixEj@Base 2.8.3
  _ZN4CTPP3CDTmIERKS0_@Base 2.8.3
  _ZN4CTPP3CDTmIEd@Base 2.8.3
  _ZN4CTPP3CDTmIEi@Base 2.8.3
  _ZN4CTPP3CDTmIEj@Base 2.8.3
- _ZN4CTPP3CDTmIEl@Base 2.8.3
- _ZN4CTPP3CDTmIEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator-=(long)@Base 2.8.3"
+ (c++)"CTPP::CDT::operator-=(unsigned long)@Base 2.8.3"
  _ZN4CTPP3CDTmLERKS0_@Base 2.8.3
  _ZN4CTPP3CDTmLEd@Base 2.8.3
  _ZN4CTPP3CDTmLEi@Base 2.8.3
  _ZN4CTPP3CDTmLEj@Base 2.8.3
- _ZN4CTPP3CDTmLEl@Base 2.8.3
- _ZN4CTPP3CDTmLEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator*=(long)@Base 2.8.3"
+ (c++)"CTPP::CDT::operator*=(unsigned long)@Base 2.8.3"
  _ZN4CTPP3CDTmmEi@Base 2.8.3
  _ZN4CTPP3CDTmmEv@Base 2.8.3
  _ZN4CTPP3CDTpLERKS0_@Base 2.8.3
  _ZN4CTPP3CDTpLEd@Base 2.8.3
  _ZN4CTPP3CDTpLEi@Base 2.8.3
  _ZN4CTPP3CDTpLEj@Base 2.8.3
- _ZN4CTPP3CDTpLEl@Base 2.8.3
- _ZN4CTPP3CDTpLEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator+=(long)@Base 2.8.3"
+ (c++)"CTPP::CDT::operator+=(unsigned long)@Base 2.8.3"
  _ZN4CTPP3CDTppEi@Base 2.8.3
  _ZN4CTPP3CDTppEv@Base 2.8.3
  _ZN4CTPP5FnAvg7HandlerEPNS_3CDTEjRS1_RNS_6LoggerE@Base 2.8.3
@@ -780,7 +780,7 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP6FnSizeD0Ev@Base 2.8.3
  _ZN4CTPP6FnSizeD1Ev@Base 2.8.3
  _ZN4CTPP6FnSizeD2Ev@Base 2.8.3
- _ZN4CTPP6Logger10LogMessageEjPKcP13__va_list_tag@Base 2.8.3
+ (c++)"CTPP::Logger::LogMessage(unsigned int, char const*, __va_list_tag*)@Base 2.8.3"
  _ZN4CTPP6Logger10LogMessageEjPKcz@Base 2.8.3
  _ZN4CTPP6Logger11SetPriorityEj@Base 2.8.3
  _ZN4CTPP6Logger3ErrEPKcz@Base 2.8.3
@@ -799,7 +799,7 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP6LoggerD1Ev@Base 2.8.3
  _ZN4CTPP6LoggerD2Ev@Base 2.8.3
  _ZN4CTPP6Swap32ERKj@Base 2.8.3
- _ZN4CTPP6Swap64ERKm@Base 2.8.3
+ (c++)"CTPP::Swap64(unsigned long const(c++)"CTPP::Swap64(unsigned long const_ZN4CTPP6Swap64ERKm@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
  _ZN4CTPP7FnError7HandlerEPNS_3CDTEjRS1_RNS_6LoggerE@Base 2.8.3
  _ZN4CTPP7FnErrorC1Ev@Base 2.8.3
  _ZN4CTPP7FnErrorC2Ev@Base 2.8.3
@@ -935,7 +935,7 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP9FnVersionD0Ev@Base 2.8.3
  _ZN4CTPP9FnVersionD1Ev@Base 2.8.3
  _ZN4CTPP9FnVersionD2Ev@Base 2.8.3
- _ZN4CTPP9HashTable3PutEPKcjm@Base 2.8.3
+ (c++)"CTPP::HashTable::Put(char const*, unsigned int, unsigned long)@Base 2.8.3"
  _ZN4CTPP9HashTable6ResizeEv@Base 2.8.3
  _ZN4CTPP9HashTableC1Ev@Base 2.8.3
  _ZN4CTPP9HashTableC2Ev@Base 2.8.3
@@ -948,23 +948,23 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPPdvERKdRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPdvERKiRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPdvERKjRKNS_3CDTE@Base 2.8.3
- _ZN4CTPPdvERKlRKNS_3CDTE@Base 2.8.3
- _ZN4CTPPdvERKmRKNS_3CDTE@Base 2.8.3
+ (c++)"CTPP::operator/(long const(c++)"CTPP::operator/(long const_ZN4CTPPdvERKlRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPdvERKlRKNS_3CDTE@Base 2.8.3)@Base 2.8.3", CTPP::CDT const(c++)"CTPP::operator/(long const_ZN4CTPPdvERKlRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPdvERKlRKNS_3CDTE@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
+ (c++)"CTPP::operator/(unsigned long const(c++)"CTPP::operator/(unsigned long const_ZN4CTPPdvERKmRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPdvERKmRKNS_3CDTE@Base 2.8.3)@Base 2.8.3", CTPP::CDT const(c++)"CTPP::operator/(unsigned long const_ZN4CTPPdvERKmRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPdvERKmRKNS_3CDTE@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
  _ZN4CTPPmiERKdRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPmiERKiRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPmiERKjRKNS_3CDTE@Base 2.8.3
- _ZN4CTPPmiERKlRKNS_3CDTE@Base 2.8.3
- _ZN4CTPPmiERKmRKNS_3CDTE@Base 2.8.3
+ (c++)"CTPP::operator-(long const(c++)"CTPP::operator-(long const_ZN4CTPPmiERKlRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPmiERKlRKNS_3CDTE@Base 2.8.3)@Base 2.8.3", CTPP::CDT const(c++)"CTPP::operator-(long const_ZN4CTPPmiERKlRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPmiERKlRKNS_3CDTE@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
+ (c++)"CTPP::operator-(unsigned long const(c++)"CTPP::operator-(unsigned long const_ZN4CTPPmiERKmRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPmiERKmRKNS_3CDTE@Base 2.8.3)@Base 2.8.3", CTPP::CDT const(c++)"CTPP::operator-(unsigned long const_ZN4CTPPmiERKmRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPmiERKmRKNS_3CDTE@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
  _ZN4CTPPmlERKdRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPmlERKiRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPmlERKjRKNS_3CDTE@Base 2.8.3
- _ZN4CTPPmlERKlRKNS_3CDTE@Base 2.8.3
- _ZN4CTPPmlERKmRKNS_3CDTE@Base 2.8.3
+ (c++)"CTPP::operator*(long const(c++)"CTPP::operator*(long const_ZN4CTPPmlERKlRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPmlERKlRKNS_3CDTE@Base 2.8.3)@Base 2.8.3", CTPP::CDT const(c++)"CTPP::operator*(long const_ZN4CTPPmlERKlRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPmlERKlRKNS_3CDTE@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
+ (c++)"CTPP::operator*(unsigned long const(c++)"CTPP::operator*(unsigned long const_ZN4CTPPmlERKmRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPmlERKmRKNS_3CDTE@Base 2.8.3)@Base 2.8.3", CTPP::CDT const(c++)"CTPP::operator*(unsigned long const_ZN4CTPPmlERKmRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPmlERKmRKNS_3CDTE@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
  _ZN4CTPPplERKdRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPplERKiRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPplERKjRKNS_3CDTE@Base 2.8.3
- _ZN4CTPPplERKlRKNS_3CDTE@Base 2.8.3
- _ZN4CTPPplERKmRKNS_3CDTE@Base 2.8.3
+ (c++)"CTPP::operator+(long const(c++)"CTPP::operator+(long const_ZN4CTPPplERKlRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPplERKlRKNS_3CDTE@Base 2.8.3)@Base 2.8.3", CTPP::CDT const(c++)"CTPP::operator+(long const_ZN4CTPPplERKlRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPplERKlRKNS_3CDTE@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
+ (c++)"CTPP::operator+(unsigned long const(c++)"CTPP::operator+(unsigned long const_ZN4CTPPplERKmRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPplERKmRKNS_3CDTE@Base 2.8.3)@Base 2.8.3", CTPP::CDT const(c++)"CTPP::operator+(unsigned long const_ZN4CTPPplERKmRKNS_3CDTE@Base 2.8.3, CTPP::CDT const_ZN4CTPPplERKmRKNS_3CDTE@Base 2.8.3)@Base 2.8.3")@Base 2.8.3"
  _ZNK4CTPP10DumpBuffer4DataEv@Base 2.8.3
  _ZNK4CTPP10DumpBuffer4SizeEv@Base 2.8.3
  _ZNK4CTPP10FnHashKeys7GetNameEv@Base 2.8.3
@@ -1086,9 +1086,9 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZNK4CTPP3CDT11LessOrEqualEd@Base 2.8.3
  _ZNK4CTPP3CDT11LessOrEqualEi@Base 2.8.3
  _ZNK4CTPP3CDT11LessOrEqualEj@Base 2.8.3
- _ZNK4CTPP3CDT11LessOrEqualEl@Base 2.8.3
- _ZNK4CTPP3CDT11LessOrEqualEm@Base 2.8.3
- _ZNK4CTPP3CDT12CastToNumberERlRd@Base 2.8.3
+ (c++)"CTPP::CDT::LessOrEqual(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::LessOrEqual(unsigned long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::CastToNumber(long(c++)"CTPP::CDT::CastToNumber(long_ZNK4CTPP3CDT12CastToNumberERlRd@Base 2.8.3, double_ZNK4CTPP3CDT12CastToNumberERlRd@Base 2.8.3) const@Base 2.8.3", double(c++)"CTPP::CDT::CastToNumber(long_ZNK4CTPP3CDT12CastToNumberERlRd@Base 2.8.3, double_ZNK4CTPP3CDT12CastToNumberERlRd@Base 2.8.3) const@Base 2.8.3") const@Base 2.8.3"
  _ZNK4CTPP3CDT12JoinHashKeysERKSs@Base 2.8.3
  _ZNK4CTPP3CDT13ConstIteratoreqERKS1_@Base 2.8.3
  _ZNK4CTPP3CDT13ConstIteratorneERKS1_@Base 2.8.3
@@ -1103,8 +1103,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZNK4CTPP3CDT14GreaterOrEqualEd@Base 2.8.3
  _ZNK4CTPP3CDT14GreaterOrEqualEi@Base 2.8.3
  _ZNK4CTPP3CDT14GreaterOrEqualEj@Base 2.8.3
- _ZNK4CTPP3CDT14GreaterOrEqualEl@Base 2.8.3
- _ZNK4CTPP3CDT14GreaterOrEqualEm@Base 2.8.3
+ (c++)"CTPP::CDT::GreaterOrEqual(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::GreaterOrEqual(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDT14JoinHashValuesERKSs@Base 2.8.3
  _ZNK4CTPP3CDT17JoinArrayElementsERKSs@Base 2.8.3
  _ZNK4CTPP3CDT20CheckComplexDataTypeEv@Base 2.8.3
@@ -1117,8 +1117,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZNK4CTPP3CDT4LessEd@Base 2.8.3
  _ZNK4CTPP3CDT4LessEi@Base 2.8.3
  _ZNK4CTPP3CDT4LessEj@Base 2.8.3
- _ZNK4CTPP3CDT4LessEl@Base 2.8.3
- _ZNK4CTPP3CDT4LessEm@Base 2.8.3
+ (c++)"CTPP::CDT::Less(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::Less(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDT4SizeEv@Base 2.8.3
  _ZNK4CTPP3CDT5BeginEv@Base 2.8.3
  _ZNK4CTPP3CDT5EqualEPKc@Base 2.8.3
@@ -1127,8 +1127,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZNK4CTPP3CDT5EqualEd@Base 2.8.3
  _ZNK4CTPP3CDT5EqualEi@Base 2.8.3
  _ZNK4CTPP3CDT5EqualEj@Base 2.8.3
- _ZNK4CTPP3CDT5EqualEl@Base 2.8.3
- _ZNK4CTPP3CDT5EqualEm@Base 2.8.3
+ (c++)"CTPP::CDT::Equal(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::Equal(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDT6ExistsERKSs@Base 2.8.3
  _ZNK4CTPP3CDT6ExistsEj@Base 2.8.3
  _ZNK4CTPP3CDT6GetCDTERKSs@Base 2.8.3
@@ -1142,8 +1142,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZNK4CTPP3CDT7GreaterEd@Base 2.8.3
  _ZNK4CTPP3CDT7GreaterEi@Base 2.8.3
  _ZNK4CTPP3CDT7GreaterEj@Base 2.8.3
- _ZNK4CTPP3CDT7GreaterEl@Base 2.8.3
- _ZNK4CTPP3CDT7GreaterEm@Base 2.8.3
+ (c++)"CTPP::CDT::Greater(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::Greater(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDT7NonzeroEv@Base 2.8.3
  _ZNK4CTPP3CDT8GetFloatEv@Base 2.8.3
  _ZNK4CTPP3CDT8NotEqualEPKc@Base 2.8.3
@@ -1152,39 +1152,39 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZNK4CTPP3CDT8NotEqualEd@Base 2.8.3
  _ZNK4CTPP3CDT8NotEqualEi@Base 2.8.3
  _ZNK4CTPP3CDT8NotEqualEj@Base 2.8.3
- _ZNK4CTPP3CDT8NotEqualEl@Base 2.8.3
- _ZNK4CTPP3CDT8NotEqualEm@Base 2.8.3
+ (c++)"CTPP::CDT::NotEqual(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::NotEqual(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDT9GetStringEPKc@Base 2.8.3
  _ZNK4CTPP3CDTdvERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTdvEd@Base 2.8.3
  _ZNK4CTPP3CDTdvEi@Base 2.8.3
  _ZNK4CTPP3CDTdvEj@Base 2.8.3
- _ZNK4CTPP3CDTdvEl@Base 2.8.3
- _ZNK4CTPP3CDTdvEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator/(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::operator/(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDTeqEPKc@Base 2.8.3
  _ZNK4CTPP3CDTeqERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTeqERKSs@Base 2.8.3
  _ZNK4CTPP3CDTeqEd@Base 2.8.3
  _ZNK4CTPP3CDTeqEi@Base 2.8.3
  _ZNK4CTPP3CDTeqEj@Base 2.8.3
- _ZNK4CTPP3CDTeqEl@Base 2.8.3
- _ZNK4CTPP3CDTeqEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator==(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::operator==(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDTgeEPKc@Base 2.8.3
  _ZNK4CTPP3CDTgeERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTgeERKSs@Base 2.8.3
  _ZNK4CTPP3CDTgeEd@Base 2.8.3
  _ZNK4CTPP3CDTgeEi@Base 2.8.3
  _ZNK4CTPP3CDTgeEj@Base 2.8.3
- _ZNK4CTPP3CDTgeEl@Base 2.8.3
- _ZNK4CTPP3CDTgeEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator>=(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::operator>=(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDTgtEPKc@Base 2.8.3
  _ZNK4CTPP3CDTgtERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTgtERKSs@Base 2.8.3
  _ZNK4CTPP3CDTgtEd@Base 2.8.3
  _ZNK4CTPP3CDTgtEi@Base 2.8.3
  _ZNK4CTPP3CDTgtEj@Base 2.8.3
- _ZNK4CTPP3CDTgtEl@Base 2.8.3
- _ZNK4CTPP3CDTgtEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator>(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::operator>(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDTixERKSs@Base 2.8.3
  _ZNK4CTPP3CDTixEj@Base 2.8.3
  _ZNK4CTPP3CDTleEPKc@Base 2.8.3
@@ -1193,42 +1193,42 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZNK4CTPP3CDTleEd@Base 2.8.3
  _ZNK4CTPP3CDTleEi@Base 2.8.3
  _ZNK4CTPP3CDTleEj@Base 2.8.3
- _ZNK4CTPP3CDTleEl@Base 2.8.3
- _ZNK4CTPP3CDTleEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator<=(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::operator<=(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDTltEPKc@Base 2.8.3
  _ZNK4CTPP3CDTltERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTltERKSs@Base 2.8.3
  _ZNK4CTPP3CDTltEd@Base 2.8.3
  _ZNK4CTPP3CDTltEi@Base 2.8.3
  _ZNK4CTPP3CDTltEj@Base 2.8.3
- _ZNK4CTPP3CDTltEl@Base 2.8.3
- _ZNK4CTPP3CDTltEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator<(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::operator<(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDTmiERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTmiEd@Base 2.8.3
  _ZNK4CTPP3CDTmiEi@Base 2.8.3
  _ZNK4CTPP3CDTmiEj@Base 2.8.3
- _ZNK4CTPP3CDTmiEl@Base 2.8.3
- _ZNK4CTPP3CDTmiEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator-(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::operator-(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDTmlERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTmlEd@Base 2.8.3
  _ZNK4CTPP3CDTmlEi@Base 2.8.3
  _ZNK4CTPP3CDTmlEj@Base 2.8.3
- _ZNK4CTPP3CDTmlEl@Base 2.8.3
- _ZNK4CTPP3CDTmlEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator*(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::operator*(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDTneEPKc@Base 2.8.3
  _ZNK4CTPP3CDTneERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTneERKSs@Base 2.8.3
  _ZNK4CTPP3CDTneEd@Base 2.8.3
  _ZNK4CTPP3CDTneEi@Base 2.8.3
  _ZNK4CTPP3CDTneEj@Base 2.8.3
- _ZNK4CTPP3CDTneEl@Base 2.8.3
- _ZNK4CTPP3CDTneEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator!=(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::operator!=(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP3CDTplERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTplEd@Base 2.8.3
  _ZNK4CTPP3CDTplEi@Base 2.8.3
  _ZNK4CTPP3CDTplEj@Base 2.8.3
- _ZNK4CTPP3CDTplEl@Base 2.8.3
- _ZNK4CTPP3CDTplEm@Base 2.8.3
+ (c++)"CTPP::CDT::operator+(long) const@Base 2.8.3"
+ (c++)"CTPP::CDT::operator+(unsigned long) const@Base 2.8.3"
  _ZNK4CTPP5FnAvg7GetNameEv@Base 2.8.3
  _ZNK4CTPP5FnLog7GetNameEv@Base 2.8.3
  _ZNK4CTPP5FnMax7GetNameEv@Base 2.8.3
@@ -1258,65 +1258,65 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZNK4CTPP9FnVersion7GetNameEv@Base 2.8.3
  _ZNK4CTPP9HashTable3GetEPKcj@Base 2.8.3
  _ZNK4CTPP9HashTable4SizeEv@Base 2.8.3
- _ZNSt12_Destroy_auxILb0EE9__destroyIPN4CTPP11SymbolTableINS2_13CTPP2Compiler14SymbolTableRecEE9ScopeVarsEEEvT_S9_@Base 2.8.3
- _ZNSt12_Destroy_auxILb0EE9__destroyIPN4CTPP3CDTEEEvT_S5_@Base 2.8.3
- _ZNSt12_Destroy_auxILb0EE9__destroyIPSsEEvT_S3_@Base 2.8.3
- _ZNSt12_Destroy_auxILb0EE9__destroyIPSt6vectorIiSaIiEEEEvT_S6_@Base 2.8.3
- _ZNSt12_Vector_baseISsSaISsEED1Ev@Base 2.8.3
- _ZNSt12_Vector_baseISsSaISsEED2Ev@Base 2.8.3
+ (c++)"void std::_Destroy_aux<false>::__destroy<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::ScopeVars*>(CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::ScopeVars*, CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::ScopeVars*)@Base 2.8.3"
+ (c++)"void std::_Destroy_aux<false>::__destroy<CTPP::CDT*>(CTPP::CDT*, CTPP::CDT*)@Base 2.8.3"
+ (c++)"void std::_Destroy_aux<false>::__destroy<std::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(std::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::basic_string<char, std::char_traits<char>, std::allocator<char> >*)@Base 2.8.3"
+ (c++)"void std::_Destroy_aux<false>::__destroy<std::vector<int, std::allocator<int> >*>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> >*)@Base 2.8.3"
+ (c++)"std::_Vector_base<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~_Vector_base()@Base 2.8.3"
+ (c++)"std::_Vector_base<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~_Vector_base()@Base 2.8.3"
  _ZNSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaISt4pairIKSsS2_EEEixERS6_@Base 2.8.3
- _ZNSt3mapISsSt6vectorISsSaISsEESt4lessISsESaISt4pairIKSsS2_EEED1Ev@Base 2.8.3
- _ZNSt3mapISsSt6vectorISsSaISsEESt4lessISsESaISt4pairIKSsS2_EEED2Ev@Base 2.8.3
- _ZNSt3mapISsjSt4lessISsESaISt4pairIKSsjEEED1Ev@Base 2.8.3
- _ZNSt3mapISsjSt4lessISsESaISt4pairIKSsjEEED2Ev@Base 2.8.3
+ (c++)"std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >::~map()@Base 2.8.3"
+ (c++)"std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >::~map()@Base 2.8.3"
+ (c++)"std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned int, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int> > >::~map()@Base 2.8.3"
+ (c++)"std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned int, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int> > >::~map()@Base 2.8.3"
  _ZNSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEED1Ev@Base 2.8.3
  _ZNSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEED2Ev@Base 2.8.3
  _ZNSt4pairIKSsN4CTPP3CDTEED1Ev@Base 2.8.3
  _ZNSt4pairIKSsN4CTPP3CDTEED2Ev@Base 2.8.3
- _ZNSt4pairIKSsSsED1Ev@Base 2.8.3
- _ZNSt4pairIKSsSsED2Ev@Base 2.8.3
+ (c++)"std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~pair()@Base 2.8.3"
+ (c++)"std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~pair()@Base 2.8.3"
  _ZNSt4pairIKSsSt6vectorISsSaISsEEED1Ev@Base 2.8.3
  _ZNSt4pairIKSsSt6vectorISsSaISsEEED2Ev@Base 2.8.3
- _ZNSt4pairIKSsjED1Ev@Base 2.8.3
- _ZNSt4pairIKSsjED2Ev@Base 2.8.3
- _ZNSt4pairISsN4CTPP3CDTEED1Ev@Base 2.8.3
- _ZNSt4pairISsN4CTPP3CDTEED2Ev@Base 2.8.3
- _ZNSt6vectorIN4CTPP11SymbolTableINS0_13CTPP2Compiler14SymbolTableRecEE9ScopeVarsESaIS5_EED1Ev@Base 2.8.3
- _ZNSt6vectorIN4CTPP11SymbolTableINS0_13CTPP2Compiler14SymbolTableRecEE9ScopeVarsESaIS5_EED2Ev@Base 2.8.3
- _ZNSt6vectorIN4CTPP12CTPP2GetText17eCTPP2InstructionESaIS2_EED1Ev@Base 2.8.3
- _ZNSt6vectorIN4CTPP12CTPP2GetText17eCTPP2InstructionESaIS2_EED2Ev@Base 2.8.3
- _ZNSt6vectorIN4CTPP12CTPP2GetText9CTPP2DataESaIS2_EED1Ev@Base 2.8.3
- _ZNSt6vectorIN4CTPP12CTPP2GetText9CTPP2DataESaIS2_EED2Ev@Base 2.8.3
+ (c++)"std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int>::~pair()@Base 2.8.3"
+ (c++)"std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int>::~pair()@Base 2.8.3"
+ (c++)"std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, CTPP::CDT>::~pair()@Base 2.8.3"
+ (c++)"std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, CTPP::CDT>::~pair()@Base 2.8.3"
+ (c++)"std::vector<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::ScopeVars, std::allocator<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::ScopeVars> >::~vector()@Base 2.8.3"
+ (c++)"std::vector<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::ScopeVars, std::allocator<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::ScopeVars> >::~vector()@Base 2.8.3"
+ (c++)"std::vector<CTPP::CTPP2GetText::eCTPP2Instruction, std::allocator<CTPP::CTPP2GetText::eCTPP2Instruction> >::~vector()@Base 2.8.3"
+ (c++)"std::vector<CTPP::CTPP2GetText::eCTPP2Instruction, std::allocator<CTPP::CTPP2GetText::eCTPP2Instruction> >::~vector()@Base 2.8.3"
+ (c++)"std::vector<CTPP::CTPP2GetText::CTPP2Data, std::allocator<CTPP::CTPP2GetText::CTPP2Data> >::~vector()@Base 2.8.3"
+ (c++)"std::vector<CTPP::CTPP2GetText::CTPP2Data, std::allocator<CTPP::CTPP2GetText::CTPP2Data> >::~vector()@Base 2.8.3"
  _ZNSt6vectorISsSaISsEED1Ev@Base 2.8.3
  _ZNSt6vectorISsSaISsEED2Ev@Base 2.8.3
- _ZNSt6vectorIiSaIiEED1Ev@Base 2.8.3
- _ZNSt6vectorIiSaIiEED2Ev@Base 2.8.3
+ (c++)"std::vector<int, std::allocator<int> >::~vector()@Base 2.8.3"
+ (c++)"std::vector<int, std::allocator<int> >::~vector()@Base 2.8.3"
  _ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE10_M_insert_EPKSt18_Rb_tree_node_baseSE_RKS5_@Base 2.8.3
- _ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE16_M_insert_uniqueERKS5_@Base 2.8.3
- _ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS5_ERKS5_@Base 2.8.3
+ (c++)"std::_Rb_tree<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog>, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> > >::_M_insert_unique(std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> const_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE16_M_insert_uniqueERKS5_@Base 2.8.3)@Base 2.8.3"
+ (c++)"std::_Rb_tree<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog>, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> const_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS5_ERKS5_@Base 2.8.3)@Base 2.8.3"
  _ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE7_M_copyEPKSt13_Rb_tree_nodeIS5_EPSD_@Base 2.8.3
  _ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E@Base 2.8.3
- _ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP3CDTEESt10_Select1stIS4_ESt4lessISsESaIS4_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS4_ERKS4_@Base 2.8.3
+ (c++)"std::_Rb_tree<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CDT>, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CDT> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CDT> > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CDT> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CDT> const_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP3CDTEESt10_Select1stIS4_ESt4lessISsESaIS4_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS4_ERKS4_@Base 2.8.3)@Base 2.8.3"
  _ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP3CDTEESt10_Select1stIS4_ESt4lessISsESaIS4_EE7_M_copyEPKSt13_Rb_tree_nodeIS4_EPSC_@Base 2.8.3
  _ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP3CDTEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E@Base 2.8.3
- _ZNSt8_Rb_treeISsSt4pairIKSsPvESt10_Select1stIS3_ESt4lessISsESaIS3_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS3_ERKS3_@Base 2.8.3
+ (c++)"std::_Rb_tree<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, void*>, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, void*> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, void*> > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, void*> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, void*> const_ZNSt8_Rb_treeISsSt4pairIKSsPvESt10_Select1stIS3_ESt4lessISsESaIS3_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS3_ERKS3_@Base 2.8.3)@Base 2.8.3"
  _ZNSt8_Rb_treeISsSt4pairIKSsPvESt10_Select1stIS3_ESt4lessISsESaIS3_EE8_M_eraseEPSt13_Rb_tree_nodeIS3_E@Base 2.8.3
- _ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS2_ERKS2_@Base 2.8.3
+ (c++)"std::_Rb_tree<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > const_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS2_ERKS2_@Base 2.8.3)@Base 2.8.3"
  _ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE7_M_copyEPKSt13_Rb_tree_nodeIS2_EPSA_@Base 2.8.3
  _ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Base 2.8.3
- _ZNSt8_Rb_treeISsSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS0_IS1_S5_EEEESt10_Select1stISB_ES7_SaISB_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorISB_ERKSB_@Base 2.8.3
+ (c++)"std::_Rb_tree<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, CTPP::CTPP2GetText::CTPP2Catalog, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> > > >, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, CTPP::CTPP2GetText::CTPP2Catalog, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> > > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, CTPP::CTPP2GetText::CTPP2Catalog, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> > > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, CTPP::CTPP2GetText::CTPP2Catalog, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> > > > >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, CTPP::CTPP2GetText::CTPP2Catalog, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, CTPP::CTPP2GetText::CTPP2Catalog> > > > const_ZNSt8_Rb_treeISsSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS0_IS1_S5_EEEESt10_Select1stISB_ES7_SaISB_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorISB_ERKSB_@Base 2.8.3)@Base 2.8.3"
  _ZNSt8_Rb_treeISsSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS0_IS1_S5_EEEESt10_Select1stISB_ES7_SaISB_EE8_M_eraseEPSt13_Rb_tree_nodeISB_E@Base 2.8.3
- _ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorIN4CTPP11SymbolTableINS3_13CTPP2Compiler14SymbolTableRecEE12SymbolRecordIS6_EESaIS9_EEESt10_Select1stISC_ESt4lessISsESaISC_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorISC_ERKSC_@Base 2.8.3
+ (c++)"std::_Rb_tree<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::SymbolRecord<CTPP::CTPP2Compiler::SymbolTableRec>, std::allocator<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::SymbolRecord<CTPP::CTPP2Compiler::SymbolTableRec> > > >, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::SymbolRecord<CTPP::CTPP2Compiler::SymbolTableRec>, std::allocator<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::SymbolRecord<CTPP::CTPP2Compiler::SymbolTableRec> > > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::SymbolRecord<CTPP::CTPP2Compiler::SymbolTableRec>, std::allocator<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::SymbolRecord<CTPP::CTPP2Compiler::SymbolTableRec> > > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::SymbolRecord<CTPP::CTPP2Compiler::SymbolTableRec>, std::allocator<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::SymbolRecord<CTPP::CTPP2Compiler::SymbolTableRec> > > > >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::SymbolRecord<CTPP::CTPP2Compiler::SymbolTableRec>, std::allocator<CTPP::SymbolTable<CTPP::CTPP2Compiler::SymbolTableRec>::SymbolRecord<CTPP::CTPP2Compiler::SymbolTableRec> > > > const_ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorIN4CTPP11SymbolTableINS3_13CTPP2Compiler14SymbolTableRecEE12SymbolRecordIS6_EESaIS9_EEESt10_Select1stISC_ESt4lessISsESaISC_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorISC_ERKSC_@Base 2.8.3)@Base 2.8.3"
  _ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorIN4CTPP11SymbolTableINS3_13CTPP2Compiler14SymbolTableRecEE12SymbolRecordIS6_EESaIS9_EEESt10_Select1stISC_ESt4lessISsESaISC_EE8_M_eraseEPSt13_Rb_tree_nodeISC_E@Base 2.8.3
- _ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS5_ERKS5_@Base 2.8.3
+ (c++)"std::_Rb_tree<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const_ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS5_ERKS5_@Base 2.8.3)@Base 2.8.3"
  _ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE7_M_copyEPKSt13_Rb_tree_nodeIS5_EPSD_@Base 2.8.3
  _ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E@Base 2.8.3
  _ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_EN4CTPP14SyscallFactory15HandlerRefsSortESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Base 2.8.3
- _ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_ESt4lessISsESaIS2_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS2_ERKS2_@Base 2.8.3
+ (c++)"std::_Rb_tree<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int>, std::_Select1st<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int> > >::_M_insert_unique_(std::_Rb_tree_const_iterator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int> >, std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int> const_ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_ESt4lessISsESaIS2_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS2_ERKS2_@Base 2.8.3)@Base 2.8.3"
  _ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_ESt4lessISsESaIS2_EE7_M_copyEPKSt13_Rb_tree_nodeIS2_EPSA_@Base 2.8.3
  _ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_ESt4lessISsESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Base 2.8.3
- _ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPN4CTPP3CDTESt6vectorIS3_SaIS3_EEEElNS2_10SortHelperEEvT_SA_T0_T1_@Base 2.8.3
- _ZSt4sortIN9__gnu_cxx17__normal_iteratorIPN4CTPP3CDTESt6vectorIS3_SaIS3_EEEENS2_10SortHelperEEvT_SA_T0_@Base 2.8.3
+ (c++)"void std::__introsort_loop<__gnu_cxx::__normal_iterator<CTPP::CDT*, std::vector<CTPP::CDT, std::allocator<CTPP::CDT> > >, long, CTPP::SortHelper>(__gnu_cxx::__normal_iterator<CTPP::CDT*, std::vector<CTPP::CDT, std::allocator<CTPP::CDT> > >, __gnu_cxx::__normal_iterator<CTPP::CDT*, std::vector<CTPP::CDT, std::allocator<CTPP::CDT> > >, long, CTPP::SortHelper)@Base 2.8.3"
+ (c++)"void std::sort<__gnu_cxx::__normal_iterator<CTPP::CDT*, std::vector<CTPP::CDT, std::allocator<CTPP::CDT> > >, CTPP::SortHelper>(__gnu_cxx::__normal_iterator<CTPP::CDT*, std::vector<CTPP::CDT, std::allocator<CTPP::CDT> > >, __gnu_cxx::__normal_iterator<CTPP::CDT*, std::vector<CTPP::CDT, std::allocator<CTPP::CDT> > >, CTPP::SortHelper)@Base 2.8.3"
  _ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_PKS3_@Base 2.8.3
  _ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_S8_@Base 2.8.3
  _ZTIN4CTPP10FileLoggerE@Base 2.8.3
