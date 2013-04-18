@@ -1,3 +1,19 @@
+ctpp2 (2.8.3-4) UNRELEASED; urgency=low
+
+  [ Vasudev Kamath ]
+  * Fix libctpp2-2.symbols file by replacing architecture dependent
+    symbols with demangled symbols tagged as (c++).
+    Closes: bug#705135.
+  * debian/rules:
+    + Passed -v$(DEB_UPSTREAM_VERSION) to dpkg-gensymbols to avoid it
+      from taking debian versions while creating symbol file.
+
+  [ Jonas Smedegaard ]
+  * Add README.source emphasizing control.in file as *not* a
+    show-stopper for contributions, referring to wiki page for details.
+
+ -- Vasudev Kamath <kamathvasudev@gmail.com>  Thu, 18 Apr 2013 13:17:20 +0200
+
 ctpp2 (2.8.3-3) unstable; urgency=low
 
   * Fix use xhtml suffix in doc-base file.
