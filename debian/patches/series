@@ -3,3 +3,4 @@
 2001_remove-upstream-cflags.patch
 2002_fix-static-libname.patch
 1003_fix-doxyfile.patch
+1004_ftbfs_fix_kfreebsd-hurd.patch
