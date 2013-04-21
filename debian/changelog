@@ -1,4 +1,4 @@
-ctpp2 (2.8.3-4) UNRELEASED; urgency=low
+ctpp2 (2.8.3-4) unstable; urgency=low
 
   [ Vasudev Kamath ]
   * Fix libctpp2-2.symbols file by replacing architecture dependent
@@ -7,12 +7,15 @@ ctpp2 (2.8.3-4) UNRELEASED; urgency=low
   * debian/rules:
     + Passed -v$(DEB_UPSTREAM_VERSION) to dpkg-gensymbols to avoid it
       from taking debian versions while creating symbol file.
+  * 1004_ftbfs_fix_kfreebsd-hurd.patch is introduced to skip iconv library
+    detection on Hurd and GNU/kFreeBSD system.
+    Closes: bug#705134      
 
   [ Jonas Smedegaard ]
   * Add README.source emphasizing control.in file as *not* a
     show-stopper for contributions, referring to wiki page for details.
 
- -- Vasudev Kamath <kamathvasudev@gmail.com>  Thu, 18 Apr 2013 13:17:20 +0200
+ -- Vasudev Kamath <kamathvasudev@gmail.com>  Sun, 21 Apr 2013 17:42:37 +0530
 
 ctpp2 (2.8.3-3) unstable; urgency=low
 
