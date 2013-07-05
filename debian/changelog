@@ -1,21 +1,23 @@
-ctpp2 (2.8.3-4) unstable; urgency=low
+ctpp2 (2.8.3-4) UNRELEASED; urgency=low
+
+FIXME: address warning during build about error in CMakeLists.txt:202
+FIXME: Discuss sanity of avoiding debian versions into symbol file.
+FIXME: update symbols file.
 
   [ Vasudev Kamath ]
   * Fix libctpp2-2.symbols file by replacing architecture dependent
     symbols with demangled symbols tagged as (c++).
     Closes: bug#705135.
-  * debian/rules:
-    + Passed -v$(DEB_UPSTREAM_VERSION) to dpkg-gensymbols to avoid it
-      from taking debian versions while creating symbol file.
-  * 1004_ftbfs_fix_kfreebsd-hurd.patch is introduced to skip iconv library
-    detection on Hurd and GNU/kFreeBSD system.
-    Closes: bug#705134      
+  * Pass -v$(DEB_UPSTREAM_VERSION) to dpkg-gensymbols to avoid it
+    including Debian versions in symbols file.
+  * Add patch 1004 to skip iconv on kFreeBSD and the Hurd: Fixes FTBFS.
+    Closes: bug#705134
 
   [ Jonas Smedegaard ]
   * Add README.source emphasizing control.in file as *not* a
     show-stopper for contributions, referring to wiki page for details.
 
- -- Vasudev Kamath <kamathvasudev@gmail.com>  Sun, 21 Apr 2013 17:42:37 +0530
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 05 Jul 2013 10:33:21 +0200
 
 ctpp2 (2.8.3-3) unstable; urgency=low
 
