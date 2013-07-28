@@ -1,9 +1,5 @@
 ctpp2 (2.8.3-4) UNRELEASED; urgency=low
 
-FIXME: address warning during build about error in CMakeLists.txt:202
-FIXME: Discuss sanity of avoiding debian versions into symbol file.
-FIXME: update symbols file.
-
   [ Vasudev Kamath ]
   * Fix libctpp2-2.symbols file by replacing architecture dependent
     symbols with demangled symbols tagged as (c++).
@@ -12,6 +8,7 @@ FIXME: update symbols file.
     including Debian versions in symbols file.
   * Add patch 1004 to skip iconv on kFreeBSD and the Hurd: Fixes FTBFS.
     Closes: bug#705134
+  * Use canonical anonscm.d.o field for Vcs-Git field.
 
   [ Jonas Smedegaard ]
   * Add README.source emphasizing control.in file as *not* a
