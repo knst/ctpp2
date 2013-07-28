@@ -3,12 +3,10 @@ ctpp2 (2.8.3-4) UNRELEASED; urgency=low
   [ Vasudev Kamath ]
   * Fix libctpp2-2.symbols file by replacing architecture dependent
     symbols with demangled symbols tagged as (c++).
-    Closes: bug#705135.
-  * Pass -v$(DEB_UPSTREAM_VERSION) to dpkg-gensymbols to avoid it
-    including Debian versions in symbols file.
+    Closes: bug#705135. Thanks to Aaron M. Ucko.
   * Add patch 1004 to skip iconv on kFreeBSD and the Hurd: Fixes FTBFS.
-    Closes: bug#705134
-  * Use canonical anonscm.d.o field for Vcs-Git field.
+    Closes: bug#705134. Thanks to Aaron M. Ucko.
+  * Use canonical anonscm.d.o URI for Vcs-Git field.
 
   [ Jonas Smedegaard ]
   * Add README.source emphasizing control.in file as *not* a

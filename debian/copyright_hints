@@ -225,15 +225,21 @@ Files: CMakeLists.txt
  benchmarks/data/test.json
  ctpp2.ebuild
  ctpp2.spec
+ debian/README.source
  debian/compat
  debian/control
  debian/control.in
- debian/ctpp2-dev.install
- debian/ctpp2-utils.install
+ debian/control.in.in
+ debian/ctpp2-doc.doc-base
  debian/ctpp2-utils.manpages
  debian/gbp.conf
- debian/libctpp2.install.in
- debian/patches/01_fix-getcwd-error.patch
+ debian/libctpp2-2.symbols
+ debian/patches/1001_fix-getcwd-error.patch
+ debian/patches/1003_fix-doxyfile.patch
+ debian/patches/1004_ftbfs_fix_kfreebsd-hurd.patch
+ debian/patches/2001_remove-upstream-cflags.patch
+ debian/patches/2002_fix-static-libname.patch
+ debian/patches/README
  debian/patches/series
  debian/rules
  debian/source/format
@@ -309,7 +315,7 @@ Files: man/ctpp2-config.1
  man/ctpp2vm.1
 Copyright: 2004, - 2010, CTPP Team
   \(co 2004, \- 2010, CTPP Dev. Team
-License: UNKNOWN
+License: BSD-3-clause
  FIXME
 
 Files: include/CTPP2GlobalDefines.h
@@ -353,6 +359,11 @@ License: UNKNOWN
 
 Files: doc/bootstrap.css
 Copyright: 2012, Twitter, Inc
+License: UNKNOWN
+ FIXME
+
+Files: debian/patches/1002_fix-manpages.patch
+Copyright: \(co 2004, \- 2010, CTPP Dev. Team
 License: UNKNOWN
  FIXME
 
