@@ -49,9 +49,6 @@ DEB_INSTALL_DOCS_$(stem)-doc += doc/html
 # Disable libssl linking
 DEB_CMAKE_NORMAL_ARGS += -DMD5_SUPPORT=0
 
-# Use only upstream version for dpkg-gensymbols
-DEB_DH_MAKESHLIBS_ARGS_$(libpkgname) += -- -v$(DEB_UPSTREAM_VERSION)
-
 # Upgrade Doxyfile, and use SVG graphics
 DEB_COMPRESS_EXCLUDE_DEFAULT += .xhtml
 common-configure-indep:: debian/stamp-doxyupgrade
