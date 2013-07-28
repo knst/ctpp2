@@ -11,7 +11,7 @@ Maintainer: Vasudev Kamath <kamathvasudev@gmail.com>
 Uploaders: Jonas Smedegaard <dr@jones.dk>
 Standards-Version: 3.9.4
 Homepage: http://ctpp.havoc.ru/en
-Vcs-Git: git://git.debian.org/collab-maint/ctpp2.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/ctpp2.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/ctpp2.git
 
 Package: ctpp2-utils
