@@ -1,14 +1,15 @@
-ctpp2 (2.8.3-4) UNRELEASED; urgency=low
+ctpp2 (2.8.3-4) unstable; urgency=low
 
   [ Vasudev Kamath ]
   * Add patch 1004 to skip iconv on kFreeBSD and the Hurd: Fixes FTBFS.
     Closes: bug#705134. Thanks to Aaron M. Ucko.
   * Use canonical anonscm.d.o URI for Vcs-Git field.
-  * Add pkg-kde-tools for build-depends and include symbolshelper.mk from
-    pkg-kde-tools for generating symbols file.
-  * Regenerate symbols file using pkg-kde-tools, this intermediate upload
-    will not solve build failure on non-amd64 architectures, this build is
-    just to collect build logs so as to patch symbols file properly.
+  * Add pkg-kde-tools for build-depends and include symbolshelper.mk
+    from pkg-kde-tools for generating symbols file.
+  * Regenerate symbols file using pkg-kde-tools, this intermediate
+    upload will not solve build failure on non-amd64 architectures, this
+    build is just to collect build logs so as to patch symbols file
+    properly.
   * Drop the make rule to remove unneeded .la file. Use --exclude-la
     option of d-shlibmove instead.
 
@@ -16,7 +17,7 @@ ctpp2 (2.8.3-4) UNRELEASED; urgency=low
   * Add README.source emphasizing control.in file as *not* a
     show-stopper for contributions, referring to wiki page for details.
 
- -- Jonas Smedegaard <dr@jones.dk>  Fri, 05 Jul 2013 10:33:21 +0200
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 30 Jul 2013 20:01:01 +0200
 
 ctpp2 (2.8.3-3) unstable; urgency=low
 
