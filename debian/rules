@@ -7,6 +7,7 @@ debian/control.in::
 	sed -e 's/__LIBPKGNAME__/$(libpkgname)/g' <debian/control.in.in >debian/control.in
 
 -include /usr/share/cdbs/1/rules/upstream-tarball.mk
+include /usr/share/pkg-kde-tools/makefiles/1/cdbs/symbolshelper.mk
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/rules/utils.mk
 include /usr/share/cdbs/1/class/cmake.mk
@@ -19,7 +20,7 @@ devpkgname = lib$(stem)-dev
 utilspkg = $(stem)-utils
 
 # Build Dependencies
-CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.48), graphviz
+CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.48), graphviz, pkg-kde-tools
 
 # Supress optional build-dependencies
 CDBS_BUILD_DEPENDS_rules_upstream_tarball =
