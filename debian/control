@@ -5,7 +5,8 @@ Build-Depends: cdbs,
  debhelper,
  cmake,
  d-shlibs(>=0.48),
- graphviz
+ graphviz,
+ pkg-kde-tools
 Build-Depends-Indep: doxygen
 Maintainer: Vasudev Kamath <kamathvasudev@gmail.com>
 Uploaders: Jonas Smedegaard <dr@jones.dk>
