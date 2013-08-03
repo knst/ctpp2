@@ -1,3 +1,13 @@
+ctpp2 (2.8.3-5) UNRELEASED; urgency=low
+
+  * Updated symbols file for amd64 armel armhf i386 ia64 mipsel powerpc
+    s390 s390x sparc.
+    Closes: bug#705135 bug#713175
+  * Set the ICONV_SUPPORT to off for kFreeBSD/Hurd. 
+    really Closes: bug#705134, thanks to Aaron M Ucko
+
+ -- Vasudev Kamath <kamathvasudev@gmail.com>  Sat, 03 Aug 2013 20:20:15 +0530
+
 ctpp2 (2.8.3-4) unstable; urgency=low
 
   [ Vasudev Kamath ]
