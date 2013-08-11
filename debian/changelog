@@ -1,7 +1,7 @@
 ctpp2 (2.8.3-5) UNRELEASED; urgency=low
 
-  * Updated symbols file for amd64 armel armhf i386 ia64 mipsel powerpc
-    s390 s390x sparc.
+  * Updated symbols file for all architectures except non-linux
+    ports (kFreeBSD and Hurd).
     Closes: bug#705135 bug#713175
   * Set the ICONV_SUPPORT to off for kFreeBSD/Hurd. 
     really Closes: bug#705134, thanks to Aaron M Ucko
