@@ -12,7 +12,7 @@ Last-Update: 2012-12-18
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -302,29 +302,6 @@ ENDIF(${CMAKE_SYSTEM_NAME} MATCHES "Wind
+@@ -302,29 +302,6 @@
  INCLUDE_DIRECTORIES(include)
  INCLUDE_DIRECTORIES(include/functions)
  
@@ -42,7 +42,7 @@ Last-Update: 2012-12-18
  
  IF(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
      ADD_DEFINITIONS(-DWIN32_LEAN_AND_MEAN)
-@@ -460,6 +437,7 @@ ENDIF(${CMAKE_SYSTEM_NAME} MATCHES "Wind
+@@ -460,6 +437,7 @@
  # ################################################################################
  # Exec binary
  #

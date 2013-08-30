@@ -5,8 +5,8 @@ Author: Vasudev Kamath <kamathvasudev@gmail.com>
 Last-Update: 2012-12-18
 Forwarded: no
 
---- ctpp2-2.8.3.orig/src/CTPP2FileSourceLoader.cpp
-+++ ctpp2-2.8.3/src/CTPP2FileSourceLoader.cpp
+--- a/src/CTPP2FileSourceLoader.cpp
++++ b/src/CTPP2FileSourceLoader.cpp
 @@ -42,6 +42,8 @@
  #ifdef WIN32
      #include <direct.h> /* getcwd */

@@ -7,7 +7,7 @@ Last-Update: 2012-12-19
 
 --- a/ctpp2.spec
 +++ b/ctpp2.spec
-@@ -60,7 +60,7 @@ rm -rf %{buildroot}
+@@ -60,7 +60,7 @@
  %files devel
  %defattr(-,root,root,-)
  %{_includedir}/ctpp2
@@ -18,7 +18,7 @@ Last-Update: 2012-12-19
  * Sat Nov 10 2012 Alexander Pankov <pianist@usrsrc.ru> - 2.8.3-0
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -416,7 +416,7 @@ SET(LIBSRCS
+@@ -416,7 +416,7 @@
  # Lib binary
  #
  ADD_LIBRARY(ctpp2-static STATIC ${LIBSRCS})
