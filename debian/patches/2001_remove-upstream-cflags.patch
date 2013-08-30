@@ -3,12 +3,9 @@ Description: Remove compiler flags by upstream
  build system. This patch removes code which was doing this overwrite
  and these flags are moved to the rules file so this patch doesn't
  remove any needed compile flags provided by upstream.
- .
- This patch also introduces LINKER flags which is for some reason not
- getting introduced from CDBS directly.
 Author: Vasudev Kamath <kamathvasudev@gmail.com>
 Forwarded: not-needed
-Last-Update: 2012-12-18
+Last-Update: 2013-08-30
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
@@ -42,11 +39,3 @@ Last-Update: 2012-12-18
  
  IF(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
      ADD_DEFINITIONS(-DWIN32_LEAN_AND_MEAN)
-@@ -460,6 +437,7 @@
- # ################################################################################
- # Exec binary
- #
-+SET(CMAKE_EXE_LINKER_FLAGS                  "-Wl,-z,relro")
- 
- # CTPP Compiler
- ADD_EXECUTABLE(ctpp2c                       tests/CTPP2Compiler.cpp)

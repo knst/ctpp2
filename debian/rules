@@ -47,6 +47,9 @@ DEB_INSTALL_MANPAGES_$(utilspkg) = debian/tmp/usr/man/man1/*
 # Install documentation
 DEB_INSTALL_DOCS_$(stem)-doc += doc/html
 
+# use standard LDFLAGS
+DEB_CMAKE_NORMAL_ARGS += -DCMAKE_EXE_LINKER_FLAGS="${LDFLAGS}" -DCMAKE_SHARED_LINKER_FLAGS="${LDFLAGS}"
+
 # Disable libssl linking
 DEB_CMAKE_NORMAL_ARGS += -DMD5_SUPPORT=0
 
