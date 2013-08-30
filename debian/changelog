@@ -1,12 +1,17 @@
-ctpp2 (2.8.3-5) UNRELEASED; urgency=low
+ctpp2 (2.8.3-5) unstable; urgency=low
 
-  * Updated symbols file for all architectures except non-linux
-    ports (kFreeBSD and Hurd).
-    Closes: bug#705135 bug#713175
-  * Set the ICONV_SUPPORT to off for kFreeBSD/Hurd. 
-    really Closes: bug#705134, thanks to Aaron M Ucko
+  [ Vasudev Kamath ]
+  * Update symbols file for all Linux architectures (i.e. kFreeBSD and
+    Hurd excluded).
+    Closes: bug#705135, #713175.
+  * Set the ICONV_SUPPORT to off for kFreeBSD/Hurd.
+    Really closes: bug#705134. Thanks to Aaron M. Ucko.
 
- -- Vasudev Kamath <kamathvasudev@gmail.com>  Sat, 03 Aug 2013 20:20:15 +0530
+  [ Jonas Smedegaard ]
+  * Refresh patches with shortening quilt options.
+  * Spoon-feed LDFLAGS in rules file (not in CMakeLists.txt via patch).
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 30 Aug 2013 10:25:21 +0200
 
 ctpp2 (2.8.3-4) unstable; urgency=low
 
