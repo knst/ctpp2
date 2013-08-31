@@ -86,6 +86,7 @@ debian/stamp-local-shlibs-$(libname): binary-install/$(libpkgname) binary-instal
 		--multiarch \
 		--exclude-la \
 		--override s/$(libname)-$(major)-dev/$(libname)-dev/ \
+		--override s/libc0.1-dev/libc6-dev/ \
 		--movedev "debian/tmp/usr/include/*" usr/include/ \
 		debian/tmp/usr/lib/$(libname).so
 	touch $@
