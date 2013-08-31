@@ -1,3 +1,16 @@
+ctpp2 (2.8.3-6) UNRELEASED; urgency=low
+
+  * Updated the the 1004_ftbfs_fix_kfreebsd-hurd.patch to properly skip
+    iconv library. Thanks to pinotree for pointers.
+    Closes: bug#705134.
+  * Patch 1005_ctpp2systypes_h_hurdkfreebsd_fix.patch added to fix FTBFS
+    on Hurd and kFreeBSD. Thanks to Aaron M. Ucko and Pino Toscano.
+    Closes: bug#721367.
+  * Override libc0.1-dev with libc6-dev in d-devlibs for kFreeBSD
+    builds. Thanks to Pino Toscano.
+
+ -- Vasudev Kamath <kamathvasudev@gmail.com>  Sat, 31 Aug 2013 11:24:48 +0530
+
 ctpp2 (2.8.3-5) unstable; urgency=low
 
   [ Vasudev Kamath ]
