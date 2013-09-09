@@ -6,8 +6,9 @@ ctpp2 (2.8.3-6) UNRELEASED; urgency=low
   * Patch 1005_ctpp2systypes_h_hurdkfreebsd_fix.patch added to fix FTBFS
     on Hurd and kFreeBSD. Thanks to Aaron M. Ucko and Pino Toscano.
     Closes: bug#721367.
-  * Override libc0.1-dev with libc6-dev in d-devlibs for kFreeBSD
-    builds. Thanks to Pino Toscano.
+  * Add generic override to libc development packages for d-devlibs till
+    to avoid possible FTBFS on non-Linux platforms. 
+    Thanks to Pino Toscano and Aaron M. Ucko.
 
  -- Vasudev Kamath <kamathvasudev@gmail.com>  Sat, 31 Aug 2013 11:24:48 +0530
 
