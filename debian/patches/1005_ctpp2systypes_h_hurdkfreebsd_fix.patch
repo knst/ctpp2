@@ -16,7 +16,7 @@ Bug-Debian: http://bugs.debian.org/721367
  
  /**
    @var typedef __int16_t    INT_16
-@@ -134,7 +134,7 @@ typedef CCHAR_8                   * CCHA
+@@ -134,7 +134,7 @@
  typedef UCCHAR_8                  * UCCHAR_P;
  
  
@@ -27,7 +27,7 @@ Bug-Debian: http://bugs.debian.org/721367
    @var typedef int16_t    INT_16
 --- a/src/CTPP2StringIconvOutputCollector.cpp
 +++ b/src/CTPP2StringIconvOutputCollector.cpp
-@@ -85,7 +85,7 @@ INT_32 StringIconvOutputCollector::Colle
+@@ -85,7 +85,7 @@
  	size_t iDstLength     = CTPP_ESCAPE_BUFFER_LEN;
  
  	char         aDstData[CTPP_ESCAPE_BUFFER_LEN];
@@ -38,7 +38,7 @@ Bug-Debian: http://bugs.debian.org/721367
  	const char * aSrcData = (const char *)vData;
 --- a/src/functions/FnIconv.cpp
 +++ b/src/functions/FnIconv.cpp
-@@ -173,7 +173,7 @@ INT_32 FnIconv::Handler(CDT            *
+@@ -173,7 +173,7 @@
  	size_t iDstLength     = CTPP_ESCAPE_BUFFER_LEN;
  
  	char         aDstData[CTPP_ESCAPE_BUFFER_LEN];

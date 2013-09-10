@@ -9,7 +9,7 @@ Last-Update: 2013-08-30
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -302,29 +302,6 @@
+@@ -312,29 +312,6 @@
  INCLUDE_DIRECTORIES(include)
  INCLUDE_DIRECTORIES(include/functions)
  

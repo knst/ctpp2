@@ -18,7 +18,7 @@ Last-Update: 2012-12-19
  * Sat Nov 10 2012 Alexander Pankov <pianist@usrsrc.ru> - 2.8.3-0
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -416,7 +416,7 @@
+@@ -426,7 +426,7 @@
  # Lib binary
  #
  ADD_LIBRARY(ctpp2-static STATIC ${LIBSRCS})

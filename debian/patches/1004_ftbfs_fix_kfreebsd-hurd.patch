@@ -8,7 +8,7 @@ Forwarded: no
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -194,6 +194,16 @@ IF("${CMAKE_SYSTEM_NAME}" MATCHES "HP-UX
+@@ -194,6 +194,16 @@
      MESSAGE(STATUS "#### Building for HP-UX...")
  ENDIF("${CMAKE_SYSTEM_NAME}" MATCHES "HP-UX")
  
