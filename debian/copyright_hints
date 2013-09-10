@@ -237,6 +237,7 @@ Files: CMakeLists.txt
  debian/patches/1001_fix-getcwd-error.patch
  debian/patches/1003_fix-doxyfile.patch
  debian/patches/1004_ftbfs_fix_kfreebsd-hurd.patch
+ debian/patches/1005_ctpp2systypes_h_hurdkfreebsd_fix.patch
  debian/patches/2001_remove-upstream-cflags.patch
  debian/patches/2002_fix-static-libname.patch
  debian/patches/README
