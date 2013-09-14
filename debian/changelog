@@ -1,3 +1,11 @@
+ctpp2 (2.8.3-7) unstable; urgency=low
+
+  * Updated symbols file for hurd-i386, kFreeBSD-i386 and kFreeBSD-amd64.
+  * Dropped override on generic libc and bumped depndency on d-shlibs to
+    >= 0.54.
+
+ -- Vasudev Kamath <kamathvasudev@gmail.com>  Sat, 14 Sep 2013 12:33:18 +0530
+
 ctpp2 (2.8.3-6) unstable; urgency=low
 
   [ Vasudev Kamath ]
