@@ -6,7 +6,7 @@ DEB_PHONY_RULES += debian/control.in
 debian/control.in::
 	sed -e 's/__LIBPKGNAME__/$(libpkgname)/g' <debian/control.in.in >debian/control.in
 
--include /usr/share/cdbs/1/rules/upstream-tarball.mk
+include /usr/share/cdbs/1/rules/upstream-tarball.mk
 include /usr/share/pkg-kde-tools/makefiles/1/cdbs/symbolshelper.mk
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/rules/utils.mk
@@ -22,10 +22,6 @@ utilspkg = $(stem)-utils
 # Build Dependencies
 # * recent d-shlibs needed for multiarch option and libc quirk
 CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.54), graphviz, pkg-kde-tools
-
-# Supress optional build-dependencies
-CDBS_BUILD_DEPENDS_rules_upstream_tarball =
-CDBS_BUILD_DEPENDS_rules_utils_copyright-check =
 
 # Multiarch quirks (should ideally be resolved automagically)
 CDBS_BUILD_DEPENDS_rules_debhelper_buildinfo =
