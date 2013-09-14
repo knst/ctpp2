@@ -3,8 +3,10 @@ Section: libs
 Priority: optional
 Build-Depends: cdbs,
  debhelper,
+ dh-buildinfo,
+ devscripts,
  cmake,
- d-shlibs(>=0.48),
+ d-shlibs(>=0.54),
  graphviz,
  pkg-kde-tools
 Build-Depends-Indep: doxygen

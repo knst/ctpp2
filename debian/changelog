@@ -1,10 +1,19 @@
 ctpp2 (2.8.3-7) unstable; urgency=low
 
-  * Updated symbols file for hurd-i386, kFreeBSD-i386 and kFreeBSD-amd64.
-  * Dropped override on generic libc and bumped depndency on d-shlibs to
-    >= 0.54.
+  [ Vasudev Kamath ]
+  * Update symbols file for hurd-i386, kFreeBSD-i386 and kFreeBSD-amd64.
+  * Tighten build-dependency on d-shlibs, and drop local quirk for libc.
 
- -- Vasudev Kamath <kamathvasudev@gmail.com>  Sat, 14 Sep 2013 12:33:18 +0530
+  [ Jonas Smedegaard ]
+  * Stop suppress optional CDBS-related build-dependencies: Satisfied
+    even in oldstable, so no longer complicates backporting.
+    Build-depend on devscripts, enabling copyright check unconditionally.
+  * Stop suppress build-dependency on dh-buildinfo: multiarch-friendly
+    nowadays.
+    Build-depend on dh-buildinfo, to ease debugging.
+  * Fix d-shlibs call, to support non-multiarch backport.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 14 Sep 2013 18:06:31 +0200
 
 ctpp2 (2.8.3-6) unstable; urgency=low
 
