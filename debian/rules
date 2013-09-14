@@ -24,7 +24,6 @@ utilspkg = $(stem)-utils
 CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.54), graphviz, pkg-kde-tools
 
 # Multiarch quirks (should ideally be resolved automagically)
-CDBS_BUILD_DEPENDS_rules_debhelper_buildinfo =
 CDBS_BUILD_DEPENDS_rules_buildcore_pkgrel =
 CDBS_PREDEPENDS = $(if $(DEB_HOST_MULTIARCH),multiarch-support)
 
