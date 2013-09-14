@@ -20,6 +20,7 @@ devpkgname = lib$(stem)-dev
 utilspkg = $(stem)-utils
 
 # Build Dependencies
+# * recent d-shlibs needed for multiarch option and libc quirk
 CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.54), graphviz, pkg-kde-tools
 
 # Supress optional build-dependencies
