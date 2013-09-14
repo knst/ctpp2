@@ -78,7 +78,7 @@ binary-post-install/$(libpkgname) binary-post-install/$(devpkgname):: debian/sta
 debian/stamp-local-shlibs-$(libname): binary-install/$(libpkgname) binary-install/$(devpkgname)
 	d-shlibmove --commit \
 		--devunversioned \
-		--multiarch \
+		$(if $(DEB_HOST_MULTIARCH),--multiarch) \
 		--exclude-la \
 		--override s/$(libname)-$(major)-dev/$(libname)-dev/ \
 		--movedev "debian/tmp/usr/include/*" usr/include/ \
