@@ -23,8 +23,7 @@ utilspkg = $(stem)-utils
 # * recent d-shlibs needed for multiarch option and libc quirk
 CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.54), graphviz, pkg-kde-tools
 
-# Multiarch quirks (should ideally be resolved automagically)
-CDBS_BUILD_DEPENDS_rules_buildcore_pkgrel =
+# Multiarch quirks
 CDBS_PREDEPENDS = $(if $(DEB_HOST_MULTIARCH),multiarch-support)
 
 # Handle Upstream releases
