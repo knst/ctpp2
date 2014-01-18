@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.8.3 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 2.8.3 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe s390 s390x sparc
 libctpp2.so.2 libctpp2-2 #MINVER#
  _Z11safe_mallocPP14AllocatedBlockj@Base 2.8.3
  _Z8freedtoaPP14AllocatedBlock@Base 2.8.3
@@ -171,8 +171,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP11InvalidCallD0Ev@Base 2.8.3
  _ZN4CTPP11InvalidCallD1Ev@Base 2.8.3
  _ZN4CTPP11InvalidCallD2Ev@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZN4CTPP11SymbolTableINS_13CTPP2Compiler14SymbolTableRecEED1Ev@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZN4CTPP11SymbolTableINS_13CTPP2Compiler14SymbolTableRecEED2Ev@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZN4CTPP11SymbolTableINS_13CTPP2Compiler14SymbolTableRecEED1Ev@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZN4CTPP11SymbolTableINS_13CTPP2Compiler14SymbolTableRecEED2Ev@Base 2.8.3
  _ZN4CTPP11VMCodeStack10PopAddressEv@Base 2.8.3
  _ZN4CTPP11VMCodeStack11PushAddressEj@Base 2.8.3
  _ZN4CTPP11VMCodeStack5ResetEv@Base 2.8.3
@@ -195,8 +195,8 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP12CTPP2GetText10ReadMODataEPKhi@Base 2.8.3
  _ZN4CTPP12CTPP2GetText11FindMessageERKSsS2_S2_@Base 2.8.3
  _ZN4CTPP12CTPP2GetText11SetLanguageERNS_14SyscallFactoryERKSs@Base 2.8.3
- (arch=!ia64 !powerpc !s390 !s390x !sparc)_ZN4CTPP12CTPP2GetText12CTPP2CatalogD1Ev@Base 2.8.3
- (arch=!ia64 !powerpc !s390 !s390x !sparc)_ZN4CTPP12CTPP2GetText12CTPP2CatalogD2Ev@Base 2.8.3
+ (arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZN4CTPP12CTPP2GetText12CTPP2CatalogD1Ev@Base 2.8.3
+ (arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZN4CTPP12CTPP2GetText12CTPP2CatalogD2Ev@Base 2.8.3
  (subst)_ZN4CTPP12CTPP2GetText12IsLtOrGtExprERKSs{size_t}@Base 2.8.3
  (subst)_ZN4CTPP12CTPP2GetText13IsTernaryExprERKSs{size_t}@Base 2.8.3
  _ZN4CTPP12CTPP2GetText13ParseMetadataERKSs@Base 2.8.3
@@ -779,7 +779,7 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP6FnSizeD0Ev@Base 2.8.3
  _ZN4CTPP6FnSizeD1Ev@Base 2.8.3
  _ZN4CTPP6FnSizeD2Ev@Base 2.8.3
- (arch=amd64 kfreebsd-amd64 powerpc s390 s390x)_ZN4CTPP6Logger10LogMessageEjPKcP13__va_list_tag@Base 2.8.3
+ (arch=amd64 kfreebsd-amd64 powerpc powerpcspe s390 s390x)_ZN4CTPP6Logger10LogMessageEjPKcP13__va_list_tag@Base 2.8.3
  (arch=hurd-i386 i386 kfreebsd-i386)_ZN4CTPP6Logger10LogMessageEjPKcPc@Base 2.8.3
  (arch=ia64 mips mipsel sparc)_ZN4CTPP6Logger10LogMessageEjPKcPv@Base 2.8.3
  (arch=armel armhf)_ZN4CTPP6Logger10LogMessageEjPKcSt9__va_list@Base 2.8.3
@@ -1268,69 +1268,69 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZNK4CTPP9FnVersion7GetNameEv@Base 2.8.3
  _ZNK4CTPP9HashTable3GetEPKcj@Base 2.8.3
  _ZNK4CTPP9HashTable4SizeEv@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc|subst)_ZNKSt6vectorIjSaIjEE12_M_check_lenE{size_t}PKc@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIiEEPT_PKS3_S6_S4_@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIjEEPT_PKS3_S6_S4_@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc|subst)_ZNKSt6vectorIjSaIjEE12_M_check_lenE{size_t}PKc@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIiEEPT_PKS3_S6_S4_@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIjEEPT_PKS3_S6_S4_@Base 2.8.3
  (optional=templinst)_ZNSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaISt4pairIKSsS2_EEEixERS6_@Base 2.8.3
  (optional=templinst)_ZNSt3mapISsS_ISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaISt4pairIKSsS2_EEES4_SaIS5_IS6_S9_EEEixERS6_@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZNSt3mapISsSsSt4lessISsESaISt4pairIKSsSsEEEixERS3_@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZNSt3mapISsjSt4lessISsESaISt4pairIKSsjEEEixERS3_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZNSt3mapISsSsSt4lessISsESaISt4pairIKSsSsEEEixERS3_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZNSt3mapISsjSt4lessISsESaISt4pairIKSsjEEEixERS3_@Base 2.8.3
  (optional=templinst)_ZNSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEED1Ev@Base 2.8.3
  (optional=templinst)_ZNSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEED2Ev@Base 2.8.3
  (optional=templinst)_ZNSt4pairIKSsN4CTPP3CDTEED1Ev@Base 2.8.3
  (optional=templinst)_ZNSt4pairIKSsN4CTPP3CDTEED2Ev@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt4pairIKSsSsED1Ev@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt4pairIKSsSsED2Ev@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS_IS0_S4_EEEED1Ev@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS_IS0_S4_EEEED2Ev@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt4pairIKSsSsED1Ev@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt4pairIKSsSsED2Ev@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS_IS0_S4_EEEED1Ev@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS_IS0_S4_EEEED2Ev@Base 2.8.3
  (optional=templinst)_ZNSt4pairIKSsSt6vectorISsSaISsEEED1Ev@Base 2.8.3
  (optional=templinst)_ZNSt4pairIKSsSt6vectorISsSaISsEEED2Ev@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt4pairISsN4CTPP3CDTEED1Ev@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt4pairISsN4CTPP3CDTEED2Ev@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt4pairISsN4CTPP3CDTEED1Ev@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt4pairISsN4CTPP3CDTEED2Ev@Base 2.8.3
  (optional=templinst)_ZNSt6vectorIN4CTPP11SymbolTableINS0_13CTPP2Compiler14SymbolTableRecEE9ScopeVarsESaIS5_EED1Ev@Base 2.8.3
  (optional=templinst)_ZNSt6vectorIN4CTPP11SymbolTableINS0_13CTPP2Compiler14SymbolTableRecEE9ScopeVarsESaIS5_EED2Ev@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZNSt6vectorIN4CTPP12CTPP2GetText17eCTPP2InstructionESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZNSt6vectorIN4CTPP12CTPP2GetText17eCTPP2InstructionESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 2.8.3
  (optional=templinst|arch=!amd64 !kfreebsd-amd64)_ZNSt6vectorIN4CTPP12CTPP2GetText9CTPP2DataESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZNSt6vectorIN4CTPP3CDTESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt6vectorIS_IiSaIiEESaIS1_EED1Ev@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt6vectorIS_IiSaIiEESaIS1_EED2Ev@Base 2.8.3
- (optional=templinst|arch=powerpc s390)_ZNSt6vectorISsSaISsEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPSsS1_EERKSs@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt6vectorISsSaISsEEC1ERKS1_@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt6vectorISsSaISsEEC2ERKS1_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZNSt6vectorIN4CTPP3CDTESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt6vectorIS_IiSaIiEESaIS1_EED1Ev@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt6vectorIS_IiSaIiEESaIS1_EED2Ev@Base 2.8.3
+ (optional=templinst|arch=powerpc powerpcspe s390)_ZNSt6vectorISsSaISsEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPSsS1_EERKSs@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt6vectorISsSaISsEEC1ERKS1_@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt6vectorISsSaISsEEC2ERKS1_@Base 2.8.3
  (optional=templinst)_ZNSt6vectorISsSaISsEED1Ev@Base 2.8.3
  (optional=templinst)_ZNSt6vectorISsSaISsEED2Ev@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE10_M_insert_EPKSt18_Rb_tree_node_baseSE_RKS5_@Base 2.8.3
- (optional=templinst|arch=powerpc s390)_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE16_M_insert_uniqueERKS5_@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE24_M_get_insert_unique_posERS1_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE10_M_insert_EPKSt18_Rb_tree_node_baseSE_RKS5_@Base 2.8.3
+ (optional=templinst|arch=powerpc powerpcspe s390)_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE16_M_insert_uniqueERKS5_@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE24_M_get_insert_unique_posERS1_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE7_M_copyEPKSt13_Rb_tree_nodeIS5_EPSD_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP12CTPP2GetText12CTPP2CatalogEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP3CDTEESt10_Select1stIS4_ESt4lessISsESaIS4_EE7_M_copyEPKSt13_Rb_tree_nodeIS4_EPSC_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsN4CTPP3CDTEESt10_Select1stIS4_ESt4lessISsESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsPvESt10_Select1stIS3_ESt4lessISsESaIS3_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS3_ERKS3_@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt8_Rb_treeISsSt4pairIKSsPvESt10_Select1stIS3_ESt4lessISsESaIS3_EE24_M_get_insert_unique_posERS1_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsPvESt10_Select1stIS3_ESt4lessISsESaIS3_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS3_ERKS3_@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt8_Rb_treeISsSt4pairIKSsPvESt10_Select1stIS3_ESt4lessISsESaIS3_EE24_M_get_insert_unique_posERS1_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPvESt10_Select1stIS3_ESt4lessISsESaIS3_EE8_M_eraseEPSt13_Rb_tree_nodeIS3_E@Base 2.8.3
  (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE24_M_get_insert_unique_posERS1_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE7_M_copyEPKSt13_Rb_tree_nodeIS2_EPSA_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSsESt10_Select1stIS2_ESt4lessISsESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS0_IS1_S5_EEEESt10_Select1stISB_ES7_SaISB_EE10_M_insert_EPKSt18_Rb_tree_node_baseSI_RKSB_@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS0_IS1_S5_EEEESt10_Select1stISB_ES7_SaISB_EE16_M_insert_uniqueERKSB_@Base 2.8.3
- (optional=templinst|arch=!ia64 !powerpc !s390 !s390x !sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS0_IS1_S5_EEEESt10_Select1stISB_ES7_SaISB_EE24_M_get_insert_unique_posERS1_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS0_IS1_S5_EEEESt10_Select1stISB_ES7_SaISB_EE10_M_insert_EPKSt18_Rb_tree_node_baseSI_RKSB_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS0_IS1_S5_EEEESt10_Select1stISB_ES7_SaISB_EE16_M_insert_uniqueERKSB_@Base 2.8.3
+ (optional=templinst|arch=!ia64 !powerpc !powerpcspe !s390 !s390x !sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS0_IS1_S5_EEEESt10_Select1stISB_ES7_SaISB_EE24_M_get_insert_unique_posERS1_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSt3mapISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaIS0_IS1_S5_EEEESt10_Select1stISB_ES7_SaISB_EE8_M_eraseEPSt13_Rb_tree_nodeISB_E@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorIN4CTPP11SymbolTableINS3_13CTPP2Compiler14SymbolTableRecEE12SymbolRecordIS6_EESaIS9_EEESt10_Select1stISC_ESt4lessISsESaISC_EE8_M_eraseEPSt13_Rb_tree_nodeISC_E@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE10_M_insert_EPKSt18_Rb_tree_node_baseSE_RKS5_@Base 2.8.3
- (optional=templinst|arch=powerpc s390)_ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE16_M_insert_uniqueERKS5_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE10_M_insert_EPKSt18_Rb_tree_node_baseSE_RKS5_@Base 2.8.3
+ (optional=templinst|arch=powerpc powerpcspe s390)_ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE16_M_insert_uniqueERKS5_@Base 2.8.3
  (optional=templinst|arch=amd64 kfreebsd-amd64 mips mipsel)_ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE24_M_get_insert_unique_posERS1_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE7_M_copyEPKSt13_Rb_tree_nodeIS5_EPSD_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsSt6vectorISsSaISsEEESt10_Select1stIS5_ESt4lessISsESaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_EN4CTPP14SyscallFactory15HandlerRefsSortESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 sparc)_ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_ESt4lessISsESaIS2_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS2_ERKS2_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 sparc)_ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_ESt4lessISsESaIS2_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS2_ERKS2_@Base 2.8.3
  (optional=templinst|arch=amd64 kfreebsd-amd64)_ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_ESt4lessISsESaIS2_EE24_M_get_insert_unique_posERS1_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_ESt4lessISsESaIS2_EE7_M_copyEPKSt13_Rb_tree_nodeIS2_EPSA_@Base 2.8.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsjESt10_Select1stIS2_ESt4lessISsESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZSt10__pop_heapIN9__gnu_cxx17__normal_iteratorIPN4CTPP3CDTESt6vectorIS3_SaIS3_EEEENS2_10SortHelperEEvT_SA_SA_T0_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZSt10__pop_heapIN9__gnu_cxx17__normal_iteratorIPN4CTPP3CDTESt6vectorIS3_SaIS3_EEEENS2_10SortHelperEEvT_SA_SA_T0_@Base 2.8.3
  (optional=templinst|arch=!amd64 !ia64 !kfreebsd-amd64 !s390x)_ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPN4CTPP3CDTESt6vectorIS3_SaIS3_EEEEiNS2_10SortHelperEEvT_SA_T0_T1_@Base 2.8.3
  (optional=templinst|arch=amd64 ia64 kfreebsd-amd64 s390x)_ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPN4CTPP3CDTESt6vectorIS3_SaIS3_EEEElNS2_10SortHelperEEvT_SA_T0_T1_@Base 2.8.3
- (optional=templinst|arch=ia64 powerpc s390 s390x sparc)_ZSt8_DestroyIPN4CTPP3CDTEEvT_S3_@Base 2.8.3
+ (optional=templinst|arch=ia64 powerpc powerpcspe s390 s390x sparc)_ZSt8_DestroyIPN4CTPP3CDTEEvT_S3_@Base 2.8.3
  (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_PKS3_@Base 2.8.3
  (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_S8_@Base 2.8.3
  _ZTIN4CTPP10FileLoggerE@Base 2.8.3
