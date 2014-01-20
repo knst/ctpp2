@@ -781,7 +781,7 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPP6FnSizeD2Ev@Base 2.8.3
  (arch=amd64 kfreebsd-amd64 powerpc powerpcspe s390 s390x)_ZN4CTPP6Logger10LogMessageEjPKcP13__va_list_tag@Base 2.8.3
  (arch=hurd-i386 i386 kfreebsd-i386)_ZN4CTPP6Logger10LogMessageEjPKcPc@Base 2.8.3
- (arch=ia64 mips mipsel sparc)_ZN4CTPP6Logger10LogMessageEjPKcPv@Base 2.8.3
+ (arch=ia64 mips mipsel sparc mips64 mips64el)_ZN4CTPP6Logger10LogMessageEjPKcPv@Base 2.8.3
  (arch=armel armhf)_ZN4CTPP6Logger10LogMessageEjPKcSt9__va_list@Base 2.8.3
  _ZN4CTPP6Logger10LogMessageEjPKcz@Base 2.8.3
  _ZN4CTPP6Logger11SetPriorityEj@Base 2.8.3
@@ -955,17 +955,17 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZN4CTPPmiERKdRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPmiERKiRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPmiERKjRKNS_3CDTE@Base 2.8.3
- (arch=amd64 ia64 kfreebsd-amd64 s390x)_ZN4CTPPmiERKlRKNS_3CDTE@Base 2.8.3
- (arch=amd64 ia64 kfreebsd-amd64 s390x)_ZN4CTPPmiERKmRKNS_3CDTE@Base 2.8.3
- (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x)_ZN4CTPPmiERKxRKNS_3CDTE@Base 2.8.3
- (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x)_ZN4CTPPmiERKyRKNS_3CDTE@Base 2.8.3
+ (arch=amd64 ia64 kfreebsd-amd64 s390x mips64 mips64el)_ZN4CTPPmiERKlRKNS_3CDTE@Base 2.8.3
+ (arch=amd64 ia64 kfreebsd-amd64 s390x mips64 mips64el)_ZN4CTPPmiERKmRKNS_3CDTE@Base 2.8.3
+ (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x !mips64 !mips64el)_ZN4CTPPmiERKxRKNS_3CDTE@Base 2.8.3
+ (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x !mips64 !mips64el)_ZN4CTPPmiERKyRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPmlERKdRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPmlERKiRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPmlERKjRKNS_3CDTE@Base 2.8.3
- (arch=amd64 ia64 kfreebsd-amd64 s390x)_ZN4CTPPmlERKlRKNS_3CDTE@Base 2.8.3
- (arch=amd64 ia64 kfreebsd-amd64 s390x)_ZN4CTPPmlERKmRKNS_3CDTE@Base 2.8.3
- (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x)_ZN4CTPPmlERKxRKNS_3CDTE@Base 2.8.3
- (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x)_ZN4CTPPmlERKyRKNS_3CDTE@Base 2.8.3
+ (arch=amd64 ia64 kfreebsd-amd64 s390x mips64 mips64el)_ZN4CTPPmlERKlRKNS_3CDTE@Base 2.8.3
+ (arch=amd64 ia64 kfreebsd-amd64 s390x mips64 mips64el)_ZN4CTPPmlERKmRKNS_3CDTE@Base 2.8.3
+ (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x !mips64 !mips64el)_ZN4CTPPmlERKxRKNS_3CDTE@Base 2.8.3
+ (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x !mips64 !mips64el)_ZN4CTPPmlERKyRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPplERKdRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPplERKiRKNS_3CDTE@Base 2.8.3
  _ZN4CTPPplERKjRKNS_3CDTE@Base 2.8.3
@@ -1213,18 +1213,18 @@ libctpp2.so.2 libctpp2-2 #MINVER#
  _ZNK4CTPP3CDTmiEd@Base 2.8.3
  _ZNK4CTPP3CDTmiEi@Base 2.8.3
  _ZNK4CTPP3CDTmiEj@Base 2.8.3
- (arch=amd64 ia64 kfreebsd-amd64 s390x)_ZNK4CTPP3CDTmiEl@Base 2.8.3
- (arch=amd64 ia64 kfreebsd-amd64 s390x)_ZNK4CTPP3CDTmiEm@Base 2.8.3
- (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x)_ZNK4CTPP3CDTmiEx@Base 2.8.3
- (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x)_ZNK4CTPP3CDTmiEy@Base 2.8.3
+ (arch=amd64 ia64 kfreebsd-amd64 s390x mips64 mips64el)_ZNK4CTPP3CDTmiEl@Base 2.8.3
+ (arch=amd64 ia64 kfreebsd-amd64 s390x mips64 mips64el)_ZNK4CTPP3CDTmiEm@Base 2.8.3
+ (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x !mips64 !mips64el)_ZNK4CTPP3CDTmiEx@Base 2.8.3
+ (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x !mips64 !mips64el)_ZNK4CTPP3CDTmiEy@Base 2.8.3
  _ZNK4CTPP3CDTmlERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTmlEd@Base 2.8.3
  _ZNK4CTPP3CDTmlEi@Base 2.8.3
  _ZNK4CTPP3CDTmlEj@Base 2.8.3
- (arch=amd64 ia64 kfreebsd-amd64 s390x)_ZNK4CTPP3CDTmlEl@Base 2.8.3
- (arch=amd64 ia64 kfreebsd-amd64 s390x)_ZNK4CTPP3CDTmlEm@Base 2.8.3
- (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x)_ZNK4CTPP3CDTmlEx@Base 2.8.3
- (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x)_ZNK4CTPP3CDTmlEy@Base 2.8.3
+ (arch=amd64 ia64 kfreebsd-amd64 s390x mips64 mips64el)_ZNK4CTPP3CDTmlEl@Base 2.8.3
+ (arch=amd64 ia64 kfreebsd-amd64 s390x mips64 mips64el)_ZNK4CTPP3CDTmlEm@Base 2.8.3
+ (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x !mips64 !mips64el)_ZNK4CTPP3CDTmlEx@Base 2.8.3
+ (arch=!amd64 !ia64 !kfreebsd-amd64 !s390x !mips64 !mips64el)_ZNK4CTPP3CDTmlEy@Base 2.8.3
  _ZNK4CTPP3CDTneEPKc@Base 2.8.3
  _ZNK4CTPP3CDTneERKS0_@Base 2.8.3
  _ZNK4CTPP3CDTneERKSs@Base 2.8.3
