@@ -1,10 +1,10 @@
-ctpp2 (2.8.3-10) UNRELEASED; urgency=medium
+ctpp2 (2.8.3-10) unstable; urgency=medium
 
   [ Vasudev Kamath ]
    * Update symbols file for mips64el architecture.
      Closes: bug#748950, Thanks to Sphinx Jiang.
 
- -- Vasudev Kamath <kamathvasudev@gmail.com>  Sat, 14 Jun 2014 23:48:55 +0530
+ -- Vasudev Kamath <kamathvasudev@gmail.com>  Sun, 15 Jun 2014 00:59:24 +0530
 
 ctpp2 (2.8.3-9) unstable; urgency=medium
 
