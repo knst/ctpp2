@@ -49,6 +49,8 @@ Depends: ${shlibs:Depends},
 Pre-Depends: ${misc:Pre-Depends},
  ${cdbs:Pre-Depends}
 Suggests: ctpp2-utils
+Conflicts: libctpp2-2
+Replaces: libctpp2-2
 Multi-Arch: same
 Description: HTML template engine for C++
  CTPP is a suitable choice for projects where a programmer and an HTML
@@ -73,6 +75,8 @@ Priority: extra
 Architecture: any
 Depends: ${misc:Depends},
  __LIBPKGNAME__ (= ${binary:Version})
+Conflicts: libctpp2-2-dbg
+Replaces: libctpp2-2-dbg
 Description: HTML template engine for C++ - debugging symbols
  CTPP is a suitable choice for projects where a programmer and an HTML
  designer are different people. The goal of CTPP development was to

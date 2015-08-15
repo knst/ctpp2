@@ -41,7 +41,7 @@ Description: HTML template engine for C++ - documentation
  .
  This package contains API manual.
 
-Package: libctpp2-2
+Package: libctpp2-2v5
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends},
@@ -49,6 +49,8 @@ Depends: ${shlibs:Depends},
 Pre-Depends: ${misc:Pre-Depends},
  ${cdbs:Pre-Depends}
 Suggests: ctpp2-utils
+Conflicts: libctpp2-2
+Replaces: libctpp2-2
 Multi-Arch: same
 Description: HTML template engine for C++
  CTPP is a suitable choice for projects where a programmer and an HTML
@@ -67,12 +69,14 @@ Description: HTML template engine for C++
   * Output data filters
   * User functions
 
-Package: libctpp2-2-dbg
+Package: libctpp2-2v5-dbg
 Section: debug
 Priority: extra
 Architecture: any
 Depends: ${misc:Depends},
- libctpp2-2 (= ${binary:Version})
+ libctpp2-2v5 (= ${binary:Version})
+Conflicts: libctpp2-2-dbg
+Replaces: libctpp2-2-dbg
 Description: HTML template engine for C++ - debugging symbols
  CTPP is a suitable choice for projects where a programmer and an HTML
  designer are different people. The goal of CTPP development was to
@@ -86,7 +90,7 @@ Package: libctpp2-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libctpp2-2 (= ${binary:Version}),
+Depends: libctpp2-2v5 (= ${binary:Version}),
  ${devlibs:Depends},
  ${misc:Depends}
 Suggests: ctpp2-doc

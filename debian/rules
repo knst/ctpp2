@@ -15,7 +15,7 @@ include /usr/share/cdbs/1/class/cmake.mk
 stem = ctpp2
 major = $(firstword $(subst .,$(space), $(DEB_UPSTREAM_VERSION)))
 libname = lib$(stem)
-libpkgname = lib$(stem)-$(major)
+libpkgname = lib$(stem)-$(major)v5
 devpkgname = lib$(stem)-dev
 utilspkg = $(stem)-utils
 
@@ -77,6 +77,7 @@ clean::
 binary-post-install/$(libpkgname) binary-post-install/$(devpkgname):: debian/stamp-local-shlibs-$(libname)
 debian/stamp-local-shlibs-$(libname): binary-install/$(libpkgname) binary-install/$(devpkgname)
 	d-shlibmove --commit \
+		--v5 \
 		--devunversioned \
 		$(if $(DEB_HOST_MULTIARCH),--multiarch) \
 		--exclude-la \
