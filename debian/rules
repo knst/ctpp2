@@ -17,6 +17,7 @@ major = $(firstword $(subst .,$(space), $(DEB_UPSTREAM_VERSION)))
 libname = lib$(stem)
 libpkgname = lib$(stem)-$(major)v5
 devpkgname = lib$(stem)-dev
+docpkgname = $(stem)-doc
 utilspkg = $(stem)-utils
 
 # Build Dependencies
@@ -25,6 +26,10 @@ CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.61), graphviz, pkg-kde-tools
 
 # Multiarch quirks
 CDBS_PREDEPENDS = $(if $(DEB_HOST_MULTIARCH),multiarch-support)
+
+# cdbs-doc drop jquery from generated doc and use jqeury package as
+# dependency.
+CDBS_DEPENDS_$(docpkgname) += libjs-jquery
 
 # Handle Upstream releases
 DEB_UPSTREAM_URL = http://ctpp.havoc.ru/download/
@@ -87,3 +92,7 @@ debian/stamp-local-shlibs-$(libname): binary-install/$(libpkgname) binary-instal
 	touch $@
 clean::
 	rm -f debian/stamp-local-shlibs-$(libname)
+
+# Remove the jquery
+binary-post-install/$(docpkgname)::
+	rm -f debian/$(docpkgname)/usr/share/doc/$(docpkgname)/html/jquery.js
