@@ -96,3 +96,4 @@ clean::
 # Remove the jquery
 binary-post-install/$(docpkgname)::
 	rm -f debian/$(docpkgname)/usr/share/doc/$(docpkgname)/html/jquery.js
+	find debian/$(docpkgname)/usr/share/doc/$(docpkgname)/html/ -name "*.md5" -exec rm -vf {} \;
