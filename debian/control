@@ -6,7 +6,7 @@ Build-Depends: cdbs,
  dh-buildinfo,
  devscripts,
  cmake,
- d-shlibs(>=0.54),
+ d-shlibs(>=0.61),
  graphviz,
  pkg-kde-tools
 Build-Depends-Indep: doxygen

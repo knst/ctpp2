@@ -20,8 +20,8 @@ devpkgname = lib$(stem)-dev
 utilspkg = $(stem)-utils
 
 # Build Dependencies
-# * recent d-shlibs needed for multiarch option and libc quirk
-CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.54), graphviz, pkg-kde-tools
+# * recent d-shlibs needed for --v5 option
+CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.61), graphviz, pkg-kde-tools
 
 # Multiarch quirks
 CDBS_PREDEPENDS = $(if $(DEB_HOST_MULTIARCH),multiarch-support)
