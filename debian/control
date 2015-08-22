@@ -38,8 +38,7 @@ Description: Tools for ctpp template conversion
 Package: ctpp2-doc
 Architecture: all
 Section: doc
-Depends: ${misc:Depends},
- ${cdbs:Depends}
+Depends: ${misc:Depends}
 Description: HTML template engine for C++ - documentation
  CTPP is a suitable choice for projects where a programmer and an HTML
  designer are different people. The goal of CTPP development was to
