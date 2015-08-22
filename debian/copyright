@@ -4,40 +4,50 @@ Upstream-Name: CT++
 Source: http://ctpp.havoc.ru/download/
 
 Files: *
-Copyright: 2004-2012, CTPP Team
+Copyright:
+  © 2004-2012, CTPP Team
 License: BSD-3-clause~ctppteam
 
 Files: include/CTPP2Time.h
-Copyright: 1993, Intergraph Corporation.
-  1995, Microsoft Corporation.
-License: GPL-1 or Artistic-1
-Comment:
- License:
- .
+Copyright:
+  © 1993, Intergraph Corporation.
+  © 1995, Microsoft Corporation.
+License-Grant:
  You may distribute under the terms of either the GNU General Public
  License or the Artistic License, as specified in the README file.
- .
- Comment:
- .
+License: GPL-1 or Artistic-1
+Comment:
  The referenced README file is missing. It is assumed to contain the
  "Artistic license" and "GNU General Public License" version 1.
 
 Files: doc/bootstrap.css
-Copyright: 2012, Twitter, Inc
+Copyright:
+  © 2012, Twitter, Inc
+License-Grant:
+ Licensed under the Apache License v2.0
+ http://www.apache.org/licenses/LICENSE-2.0
 License: Apache-2
 
 Files: include/STL*
-Copyright: 2005-2011, CAS Dev Team
+Copyright:
+  © 2005-2011, CAS Dev Team
 License: BSD-3-clause~casdevteam
 
 Files: include/CTPP2GlobalDefines.h
-Copyright: 1987-1993, The Regents of the University of California
-  2004-2010, CTPP Team
+Copyright:
+  © 1987-1993, The Regents of the University of California
+  © 2004-2010, CTPP Team
 License: BSD-3-clause~ctppteam
 
 Files: debian/*
-Copyright: Jonas Smedegaard <js@debian.org>
- Vasudev Kamath <kamathvasudev@gmail.com>
+Copyright:
+  © Jonas Smedegaard <js@debian.org>
+  © Vasudev Kamath <kamathvasudev@gmail.com>
+License-Grant:
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
 License: GPL-2+
 
 License: BSD-3-clause~ctppteam
@@ -91,38 +101,13 @@ License: BSD-3-clause~casdevteam
  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 License: GPL-2+
- This program is free software; you can redistribute it and/or modify it
- under the terms of the GNU General Public License as published by the
- Free Software Foundation; either version 2 of the License, or (at your
- option) any later version.
- .
- This program is distributed in the hope that it will be useful, but
- WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- General Public License for more details.
- .
- Comment:
- .
- On Debian systems the 'GNU General Public License' version 2 is located
- in '/usr/share/common-licenses/GPL-2'.
- .
- You should have received a copy of the 'GNU General Public License'
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
+License-Reference: /usr/share/common-licenses/GPL-2
 
 License: GPL-1
- Comment:
- .
- On Debian systems the 'GNU General Public License' version 1 is located
- in '/usr/share/common-licenses/GPL-1'.
+License-Reference: /usr/share/common-licenses/GPL-1
 
 License: Artistic-1
- Comment:
- .
- On Debian systems the 'Artistic License' is located in
- '/usr/share/common-licenses/Artistic'.
+License-Reference: /usr/share/common-licenses/Artistic
 
 License: Apache-2
- Comment:
- .
- On Debian systems the 'Apache License 2.0' is located in
- '/usr/share/common-licenses/Apache-2.0'
+License-Reference: /usr/share/common-licenses/Apache-2.0
