@@ -195,10 +195,10 @@ libctpp2.so.2 libctpp2-2v5 #MINVER#
  _ZN4CTPP12CTPP2GetText11SetLanguageERNS_14SyscallFactoryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 2.8.3
  (arch=!ia64 !powerpcspe !s390)_ZN4CTPP12CTPP2GetText12CTPP2CatalogD1Ev@Base 2.8.3
  (arch=!ia64 !powerpcspe !s390)_ZN4CTPP12CTPP2GetText12CTPP2CatalogD2Ev@Base 2.8.3
- (arch=armhf i386 powerpc)_ZN4CTPP12CTPP2GetText12IsLtOrGtExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
- (arch=!armhf !i386 !powerpc)_ZN4CTPP12CTPP2GetText12IsLtOrGtExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
- (arch=armhf i386 powerpc)_ZN4CTPP12CTPP2GetText13IsTernaryExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
- (arch=!armhf !i386 !powerpc)_ZN4CTPP12CTPP2GetText13IsTernaryExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
+ (arch=armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc x32)_ZN4CTPP12CTPP2GetText12IsLtOrGtExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
+ (arch=!armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc !x32)_ZN4CTPP12CTPP2GetText12IsLtOrGtExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
+ (arch=armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc x32)_ZN4CTPP12CTPP2GetText13IsTernaryExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
+ (arch=!armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc !x32)_ZN4CTPP12CTPP2GetText13IsTernaryExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
  _ZN4CTPP12CTPP2GetText13ParseMetadataERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 2.8.3
  _ZN4CTPP12CTPP2GetText14AddTranslationERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_@Base 2.8.3
  _ZN4CTPP12CTPP2GetText14ExtractMessageEPKhjii@Base 2.8.3
@@ -209,17 +209,17 @@ libctpp2.so.2 libctpp2-2v5 #MINVER#
  _ZN4CTPP12CTPP2GetText18InitSTDLibFunctionERNS_14SyscallFactoryE@Base 2.8.3
  _ZN4CTPP12CTPP2GetText19CalculatePluralFormEjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_@Base 2.8.3
  _ZN4CTPP12CTPP2GetText20StringifyInstructionENS0_17eCTPP2InstructionE@Base 2.8.3
- (arch=armhf i386 powerpc)_ZN4CTPP12CTPP2GetText6IsTermERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
- (arch=!armhf !i386 !powerpc)_ZN4CTPP12CTPP2GetText6IsTermERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
- (arch=armhf i386 powerpc)_ZN4CTPP12CTPP2GetText8IsEqExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
- (arch=!armhf !i386 !powerpc)_ZN4CTPP12CTPP2GetText8IsEqExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
- (arch=armhf i386 powerpc)_ZN4CTPP12CTPP2GetText8IsOrExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
- (arch=!armhf !i386 !powerpc)_ZN4CTPP12CTPP2GetText8IsOrExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
+ (arch=armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc x32)_ZN4CTPP12CTPP2GetText6IsTermERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
+ (arch=!armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc !x32)_ZN4CTPP12CTPP2GetText6IsTermERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
+ (arch=armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc x32)_ZN4CTPP12CTPP2GetText8IsEqExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
+ (arch=!armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc !x32)_ZN4CTPP12CTPP2GetText8IsEqExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
+ (arch=armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc x32)_ZN4CTPP12CTPP2GetText8IsOrExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
+ (arch=!armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc !x32)_ZN4CTPP12CTPP2GetText8IsOrExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
  _ZN4CTPP12CTPP2GetText8ReadFileEPKcRj@Base 2.8.3
- (arch=armhf i386 powerpc)_ZN4CTPP12CTPP2GetText9IsAndExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
- (arch=!armhf !i386 !powerpc)_ZN4CTPP12CTPP2GetText9IsAndExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
- (arch=armhf i386 powerpc)_ZN4CTPP12CTPP2GetText9IsModExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
- (arch=!armhf !i386 !powerpc)_ZN4CTPP12CTPP2GetText9IsModExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
+ (arch=armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc x32)_ZN4CTPP12CTPP2GetText9IsAndExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
+ (arch=!armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc !x32)_ZN4CTPP12CTPP2GetText9IsAndExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
+ (arch=armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc x32)_ZN4CTPP12CTPP2GetText9IsModExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj@Base 2.8.3
+ (arch=!armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc !x32)_ZN4CTPP12CTPP2GetText9IsModExprERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEm@Base 2.8.3
  _ZN4CTPP12CTPP2GetTextC1Ev@Base 2.8.3
  _ZN4CTPP12CTPP2GetTextC2Ev@Base 2.8.3
  _ZN4CTPP12CTPP2GetTextD1Ev@Base 2.8.3
@@ -1276,7 +1276,7 @@ libctpp2.so.2 libctpp2-2v5 #MINVER#
  _ZNK4CTPP9HashTable4SizeEv@Base 2.8.3
  _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessIS5_ESaISt4pairIKS5_S8_EEEixERSC_@Base 2.8.3
  _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES_IS5_N4CTPP12CTPP2GetText12CTPP2CatalogESt4lessIS5_ESaISt4pairIKS5_S8_EEESA_SaISB_ISC_SF_EEEixERSC_@Base 2.8.3
- (optional=templinst|arch=!amd64 !arm64 !armhf !i386 !kfreebsd-amd64 !powerpc !ppc64el)_ZNSt3mapISsS_ISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaISt4pairIKSsS2_EEES4_SaIS5_IS6_S9_EEEixERS6_@Base 2.8.3
+ (optional=templinst|arch=!amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZNSt3mapISsS_ISsN4CTPP12CTPP2GetText12CTPP2CatalogESt4lessISsESaISt4pairIKSsS2_EEES4_SaIS5_IS6_S9_EEEixERS6_@Base 2.8.3
  (optional=templinst|arch=ia64 powerpcspe s390)_ZNSt3mapISsSsSt4lessISsESaISt4pairIKSsSsEEEixERS3_@Base 2.8.3
  (optional=templinst|arch=ia64 powerpcspe s390)_ZNSt3mapISsjSt4lessISsESaISt4pairIKSsjEEEixERS3_@Base 2.8.3
  _ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4CTPP12CTPP2GetText12CTPP2CatalogEED1Ev@Base 2.8.3
@@ -1313,7 +1313,7 @@ libctpp2.so.2 libctpp2-2v5 #MINVER#
  _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St6vectorIS5_SaIS5_EEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE7_M_copyINSH_11_Alloc_nodeEEEPSt13_Rb_tree_nodeISB_EPKSL_SM_RT_@Base 2.8.3
  _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St6vectorIS5_SaIS5_EEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE8_M_eraseEPSt13_Rb_tree_nodeISB_E@Base 2.8.3
  _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_jESt10_Select1stIS8_EN4CTPP14SyscallFactory15HandlerRefsSortESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E@Base 2.8.3
- (arch=!armhf !i386 !powerpc)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_jESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_@Base 2.8.3
+ (arch=!armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_jESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_@Base 2.8.3
  _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_jESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE7_M_copyINSE_11_Alloc_nodeEEEPSt13_Rb_tree_nodeIS8_EPKSI_SJ_RT_@Base 2.8.3
  _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_jESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE7_M_copyINSE_20_Reuse_or_alloc_nodeEEEPSt13_Rb_tree_nodeIS8_EPKSI_SJ_RT_@Base 2.8.3
  _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_jESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E@Base 2.8.3
