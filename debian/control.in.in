@@ -5,7 +5,7 @@ Build-Depends: @cdbs@
 Build-Depends-Indep: doxygen
 Maintainer: Vasudev Kamath <kamathvasudev@gmail.com>
 Uploaders: Jonas Smedegaard <dr@jones.dk>
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://ctpp.havoc.ru/en
 Vcs-Git: git://anonscm.debian.org/collab-maint/ctpp2.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/ctpp2.git
