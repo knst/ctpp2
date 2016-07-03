@@ -1,3 +1,15 @@
+ctpp2 (2.8.3-18) unstable; urgency=medium
+
+  * Update symbols file for gcc-6 release.
+    Closes: bug#811963, Thanks to Martin Michlmayr.
+  * debian/control:
+    + Mark package as compliant with Debian policy 3.9.8
+    + Change my email address in Maintainer field
+    + Use secure https URL for Vcs-Git field.
+    + Use secure Cgit URL for Vcs-Browser field.
+
+ -- Vasudev Kamath <vasudev@copyninja.info>  Sun, 03 Jul 2016 16:30:10 +0530
+
 ctpp2 (2.8.3-17) unstable; urgency=medium
 
   * Update symbols file to build on all architecture.
