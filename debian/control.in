@@ -60,7 +60,7 @@ Description: HTML template engine for C++
  added by writing users functions.
  .
  CTPP has following advantages over other template engines:
-  * Very High performace as this is written in C++
+  * Very High performance as this is written in C++
   * Flexible syntax of templates
   * Robustness
   * Portability
