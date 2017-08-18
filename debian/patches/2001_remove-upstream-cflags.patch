@@ -6,7 +6,8 @@ Description: Remove compiler flags by upstream
 Author: Vasudev Kamath <kamathvasudev@gmail.com>
 Forwarded: not-needed
 Last-Update: 2013-08-30
-
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -312,29 +312,6 @@

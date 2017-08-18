@@ -4,7 +4,8 @@ Description: Add type support for kFreeBSD and Hurd
 Author: Pino Toscano
 Last-Updated: 2013-08-31
 Bug-Debian: http://bugs.debian.org/721367
-
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/include/CTPP2SysTypes.h
 +++ b/include/CTPP2SysTypes.h
 @@ -41,7 +41,7 @@
