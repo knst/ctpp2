@@ -4,18 +4,16 @@ Priority: optional
 Build-Depends: cdbs,
  debhelper,
  dh-buildinfo,
- licensecheck,
  cmake,
- d-shlibs(>=0.61),
- graphviz,
+ d-shlibs (>= 0.61~),
  pkg-kde-tools
-Build-Depends-Indep: doxygen
+Build-Depends-Indep: doxygen, graphviz
 Maintainer: Vasudev Kamath <vasudev@copyninja.info>
 Uploaders: Jonas Smedegaard <dr@jones.dk>
-Standards-Version: 3.9.8
+Standards-Version: 4.0.1
 Homepage: http://ctpp.havoc.ru/en
 Vcs-Git: https://anonscm.debian.org/git/collab-maint/ctpp2.git
-Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/ctpp2.git
+Vcs-Browser: https://anonscm.debian.org/git/collab-maint/ctpp2.git
 
 Package: ctpp2-utils
 Architecture: any

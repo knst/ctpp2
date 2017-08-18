@@ -201,11 +201,11 @@ Files: CTPP2SysHeaders.h.cmake
  tests/VMArgStackTest.cpp
  tests/VMCodeStackTest.cpp
  tests/VMDumperTest.cpp
-Copyright: 2004, - 2009, CTPP Team
-  2004, - 2010, CTPP Team
-  2004, - 2011, CTPP Team
-  2006, - 2010, CTPP Team
+Copyright: 2004-2009, CTPP Team
+  2004-2010, CTPP Team
+  2004-2011, CTPP Team
   2006-2007, CTPP Team
+  2006-2010, CTPP Team
 License: BSD-3-clause
  FIXME
 
@@ -223,8 +223,6 @@ Files: CMakeLists.txt
  benchmarks/CDT2JSON.cpp
  benchmarks/data/lebowski-bench.json
  benchmarks/data/test.json
- ctpp2.ebuild
- ctpp2.spec
  debian/README.source
  debian/compat
  debian/control
@@ -233,7 +231,7 @@ Files: CMakeLists.txt
  debian/ctpp2-doc.doc-base
  debian/ctpp2-utils.manpages
  debian/gbp.conf
- debian/libctpp2-2.symbols
+ debian/libctpp2-2v5.symbols
  debian/patches/1001_fix-getcwd-error.patch
  debian/patches/1003_fix-doxyfile.patch
  debian/patches/1004_ftbfs_fix_kfreebsd-hurd.patch
@@ -244,6 +242,7 @@ Files: CMakeLists.txt
  debian/patches/series
  debian/rules
  debian/source/format
+ debian/source/lintian-overrides
  debian/watch
  doc/colors.css
  doc/template_language.rst
@@ -283,7 +282,7 @@ Files: CMakeLists.txt
  tests/testdata/testdata.json
  tests/testdata/verbose_mode.out
  tests/testdata/verbose_mode.tmpl
-Copyright: *No copyright*
+Copyright: NONE
 License: UNKNOWN
  FIXME
 
@@ -295,7 +294,7 @@ Files: include/STLException.hpp
  include/STLPair.hpp
  include/STLString.hpp
  include/STLVector.hpp
-Copyright: 2005, - 2011, CAS Dev Team
+Copyright: 2005-2011, CAS Dev Team
 License: BSD-3-clause
  FIXME
 
@@ -304,7 +303,7 @@ Files: tests/CTPP2Compiler.cpp
  tests/CTPP2Interpreter.cpp
  tests/CTPP2JSONParser.cpp
  tests/VMEmulator.cpp
-Copyright: 2004-2011, CTPP Dev. Team.\n\n");
+Copyright: 2004-2011, CTPP Dev. Team.nn");
   2006-2007, CTPP Team
 License: BSD-3-clause
  FIXME
@@ -314,57 +313,69 @@ Files: man/ctpp2-config.1
  man/ctpp2i.1
  man/ctpp2json.1
  man/ctpp2vm.1
-Copyright: 2004, - 2010, CTPP Team
-  \(co 2004, \- 2010, CTPP Dev. Team
+Copyright: 2004-2010, CTPP Team
+  Copyright (co 2004 - 2010 CTPP Dev. Team.
 License: BSD-3-clause
  FIXME
 
-Files: include/CTPP2GlobalDefines.h
-Copyright: 1987, 1993
-  2004, - 2010, CTPP Team
-License: BSD-3-clause
+Files: ctpp2.ebuild
+ ctpp2.spec
+Copyright: NONE
+License: BSD~unspecified
  FIXME
 
-Files: src/functions/FnVersion.cpp
-Copyright: 2004, - 2011, CTPP Team
-  2004, - 2012, CTPP Dev. Team";
-  2004, - 2012, CTPP Dev. Team;\n"
-  2007, - 2012, CTPP Dev. Team;\n"
-License: BSD-3-clause
- FIXME
-
-Files: src/CTPP2DTOA.cpp
-Copyright: 1991, 2000-2001, Lucent Technologies
-  2004, - 2011, CTPP Team
-License: BSD-3-clause
- FIXME
-
-Files: tests/testdata/functions.out
-Copyright: 2004, - 2012, CTPP Dev. Team
-  2004, - 2012, CTPP Dev. Team;
-  2007, - 2012, CTPP Dev. Team;
-License: UNKNOWN
- FIXME
-
-Files: CodeStyle
-Copyright: 2004, - 2010, CTPP Team
-  header should be a multi-line comment, with the first line
-License: UNKNOWN
+Files: doc/bootstrap.css
+Copyright: 2012, Twitter, Inc
+License: Apache-2.0
  FIXME
 
 Files: include/CTPP2Time.h
 Copyright: 1993, Intergraph Corporation.
   1995, Microsoft Corporation.
-License: UNKNOWN
+License: Artistic
  FIXME
 
-Files: doc/bootstrap.css
-Copyright: 2012, Twitter, Inc
-License: UNKNOWN
+Files: src/functions/FnVersion.cpp
+Copyright: 2004-2011, CTPP Team
+  2004-2012, CTPP Dev. Team";
+  2004-2012, CTPP Dev. Team;n"
+  2007-2012, CTPP Dev. Team;n"
+License: BSD-3-clause
+ FIXME
+
+Files: src/CTPP2DTOA.cpp
+Copyright: 1991, 2000-2001, Lucent Technologies.
+  2004-2011, CTPP Team
+License: BSD-3-clause
+ FIXME
+
+Files: include/CTPP2GlobalDefines.h
+Copyright: 1987, 1993, The Regents of the University of California.
+  2004-2010, CTPP Team
+License: BSD-3-clause
+ FIXME
+
+Files: tests/testdata/functions.out
+Copyright: 2004-2012, CTPP Dev. Team
+  2004-2012, CTPP Dev. Team;
+  2007-2012, CTPP Dev. Team;
+License: BSD~unspecified
+ FIXME
+
+Files: debian/copyright-check
+Copyright: 2016-2017, Jonas Smedegaard <dr@jones.dk>
+License: GPL-3+
  FIXME
 
 Files: debian/patches/1002_fix-manpages.patch
-Copyright: \(co 2004, \- 2010, CTPP Dev. Team
+Copyright: (co 2004 - 2010 CTPP Dev. Team.
+  Copyright (co 2004 - 2010 CTPP Dev. Team.
+License: UNKNOWN
+ FIXME
+
+Files: CodeStyle
+Copyright: 2004-2010, CTPP Team
+  header should be a multi-line comment, with the first line
 License: UNKNOWN
  FIXME
 

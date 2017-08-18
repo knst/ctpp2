@@ -1,8 +1,27 @@
-ctpp2 (2.8.3-21) UNRELEASED; urgency=medium
+ctpp2 (2.8.3-21) unstable; urgency=medium
 
-  * Acknowledging the NMU by John Paul Adrian Glaubitz.
+  [ Vasudev Kamath ]
+  * Acknowledge NMU by John Paul Adrian Glaubitz.
 
- -- Vasudev Kamath <vasudev@copyninja.info>  Sat, 04 Mar 2017 10:19:04 +0530
+  [ Jonas Smedegaard ]
+  * Update copyright info:
+    + Use License-Grant and License-Reference fields.
+      Thanks to Ben Finney.
+    + Use https protocol in file format URL.
+    + Add coverage for myself.
+  * Override lintian regarding license in License-Reference field.
+    See bug#786450.
+  * Bump debhelper compatibility level to 9.
+  * Modernize Vcs-* fields: Use git (not cgit) in path.
+  * Declare compliance with Debian Policy 4.0.1.
+  * Fix Build-Depends-Indep (not Build-Depends) on graphviz.
+  * Tighten major version resolving used for our packaging.
+  * Modernize cdbs: Do copyright-check in maintainer script (not during
+    build).
+    Stop build-depend on licensecheck.
+  * Advertise DEP3 format in patch headers.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 18 Aug 2017 16:49:25 +0200
 
 ctpp2 (2.8.3-20.1) unstable; urgency=medium
 
