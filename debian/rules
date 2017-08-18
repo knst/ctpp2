@@ -22,9 +22,6 @@ utilspkg = $(stem)-utils
 # Build Dependencies
 CDBS_BUILD_DEPENDS +=, cmake
 
-# Multiarch quirks
-CDBS_PREDEPENDS = $(if $(DEB_HOST_MULTIARCH),multiarch-support)
-
 # Handle Upstream releases
 DEB_UPSTREAM_URL = http://ctpp.havoc.ru/download/
 DEB_UPSTREAM_TARBALL_MD5 = 1155b65e8ca8b844c631831e4a3e5644
