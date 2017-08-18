@@ -51,8 +51,6 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends}
-Pre-Depends: ${misc:Pre-Depends},
- ${cdbs:Pre-Depends}
 Suggests: ctpp2-utils
 Conflicts: libctpp2-2
 Replaces: libctpp2-2

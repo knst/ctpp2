@@ -1,3 +1,10 @@
+ctpp2 (2.8.3-22) unstable; urgency=medium
+
+  * Stop pre-depend on multiarch-support.
+    Closes: Bug#870507. Thanks to Aurelien Jarno.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 18 Aug 2017 20:30:10 +0200
+
 ctpp2 (2.8.3-21) unstable; urgency=medium
 
   [ Vasudev Kamath ]
