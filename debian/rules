@@ -22,7 +22,7 @@ utilspkg = $(stem)-utils
 
 # Build Dependencies
 # * recent d-shlibs needed for --v5 option
-CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.61), graphviz, pkg-kde-tools
+CDBS_BUILD_DEPENDS += , cmake, d-shlibs(>=0.61), pkg-kde-tools
 
 # Multiarch quirks
 CDBS_PREDEPENDS = $(if $(DEB_HOST_MULTIARCH),multiarch-support)

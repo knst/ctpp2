@@ -2,7 +2,7 @@ Source: ctpp2
 Section: libs
 Priority: optional
 Build-Depends: @cdbs@
-Build-Depends-Indep: doxygen
+Build-Depends-Indep: doxygen, graphviz
 Maintainer: Vasudev Kamath <vasudev@copyninja.info>
 Uploaders: Jonas Smedegaard <dr@jones.dk>
 Standards-Version: 4.0.1
