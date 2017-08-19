@@ -67,23 +67,6 @@ Description: HTML template engine for C++
   * Output data filters
   * User functions
 
-Package: __LIBPKGNAME__-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: ${misc:Depends},
- __LIBPKGNAME__ (= ${binary:Version})
-Conflicts: libctpp2-2-dbg
-Replaces: libctpp2-2-dbg
-Description: HTML template engine for C++ - debugging symbols
- CTPP is a suitable choice for projects where a programmer and an HTML
- designer are different people. The goal of CTPP development was to
- achieve maximum performance with minimal basic functionality that is
- easily expandable. In other words, any conceivable capabilities can be
- added by writing users functions.
- .
- This package contains the debugging symbols.
-
 Package: libctpp2-dev
 Section: libdevel
 Architecture: any

@@ -44,6 +44,9 @@ DEB_CMAKE_NORMAL_ARGS += -DCMAKE_EXE_LINKER_FLAGS="${LDFLAGS}" -DCMAKE_SHARED_LI
 # Disable libssl linking
 DEB_CMAKE_NORMAL_ARGS += -DMD5_SUPPORT=0
 
+# Drop -dbg package in favor of auto generated -dbgsym
+DEB_DH_STRIP_ARGS = --dbgsym-migration="$(libpkgname)-dbg (<< 2.8.3-23~)"
+
 # Upgrade Doxyfile, and use SVG graphics
 DEB_COMPRESS_EXCLUDE_DEFAULT += .xhtml
 common-configure-indep:: debian/stamp-doxyupgrade
