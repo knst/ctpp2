@@ -1,3 +1,11 @@
+ctpp2 (2.8.3-24) unstable; urgency=medium
+
+  * Add myself as an uploader
+  * Update symbols file
+    Closes: #897732. Thanks to Mathias Klose.
+
+ -- Kunal Mehta <legoktm@member.fsf.org>  Sat, 21 Jul 2018 23:00:11 +0200
+
 ctpp2 (2.8.3-23) unstable; urgency=medium
 
   * Update symbols file for all architectures.
