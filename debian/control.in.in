@@ -4,7 +4,8 @@ Priority: optional
 Build-Depends: @cdbs@
 Build-Depends-Indep: doxygen, graphviz
 Maintainer: Vasudev Kamath <vasudev@copyninja.info>
-Uploaders: Jonas Smedegaard <dr@jones.dk>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+ Kunal Mehta <legoktm@member.fsf.org>
 Standards-Version: 4.0.1
 Homepage: http://ctpp.havoc.ru/en
 Vcs-Git: https://anonscm.debian.org/git/collab-maint/ctpp2.git
