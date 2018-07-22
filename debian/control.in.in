@@ -8,8 +8,8 @@ Uploaders: Jonas Smedegaard <dr@jones.dk>,
  Kunal Mehta <legoktm@member.fsf.org>
 Standards-Version: 4.0.1
 Homepage: http://ctpp.havoc.ru/en
-Vcs-Git: https://anonscm.debian.org/git/collab-maint/ctpp2.git
-Vcs-Browser: https://anonscm.debian.org/git/collab-maint/ctpp2.git
+Vcs-Git: https://salsa.debian.org/debian/ctpp2.git
+Vcs-Browser: https://salsa.debian.org/debian/ctpp2
 
 Package: ctpp2-utils
 Architecture: any
