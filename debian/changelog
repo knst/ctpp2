@@ -1,10 +1,14 @@
 ctpp2 (2.8.3-24) unstable; urgency=medium
 
+  [ Kunal Mehta ]
   * Add myself as an uploader
   * Update symbols file
     Closes: #897732. Thanks to Mathias Klose.
 
- -- Kunal Mehta <legoktm@member.fsf.org>  Sat, 21 Jul 2018 23:00:11 +0200
+  [ Vasudev Kamath ]
+  * Fix an error in patch 1003.
+
+ -- Vasudev Kamath <vasudev@copyninja.info>  Sat, 11 Aug 2018 17:47:49 +0530
 
 ctpp2 (2.8.3-23) unstable; urgency=medium
 
