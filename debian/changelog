@@ -1,3 +1,9 @@
+ctpp2 (2.8.3-25) unstable; urgency=medium
+
+  * Update symbols file for all release and ports architecture.
+
+ -- Vasudev Kamath <vasudev@copyninja.info>  Sat, 11 Aug 2018 21:21:28 +0530
+
 ctpp2 (2.8.3-24) unstable; urgency=medium
 
   [ Kunal Mehta ]
