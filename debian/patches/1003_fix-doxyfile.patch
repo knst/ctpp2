@@ -1,5 +1,5 @@
 Description: Remove reference to non-existent files
- Doxyfile was refering to non-existent template files under
+ Doxyfile was referring to non-existent template files under
  doc/ this patches removes the reference to those files.
  .
 Author: Vasudev Kamath <kamathvasudev@gmail.com>
