@@ -3,5 +3,7 @@
 1003_fix-doxyfile.patch
 1004_ftbfs_fix_kfreebsd-hurd.patch
 1005_ctpp2systypes_h_hurdkfreebsd_fix.patch
+1006_fix_docstrings.patch
 2001_remove-upstream-cflags.patch
 2002_fix-static-libname.patch
+auto-gitignore

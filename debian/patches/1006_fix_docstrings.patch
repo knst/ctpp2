@@ -1,0 +1,32 @@
+Description: Fix docstrings and avoid intermittent, unreproducible
+ doxygen build failure.
+Author: Paolo Greppi <paolo.greppi@libpf.com>
+Forwarded: no
+Last-Update: 2018-12-02
+
+Index: ctpp2/include/CTPP2JSONParser.hpp
+===================================================================
+--- ctpp2.orig/include/CTPP2JSONParser.hpp
++++ ctpp2/include/CTPP2JSONParser.hpp
+@@ -82,7 +82,7 @@ private:
+ 	INT_32         iParsedNumberType;
+ 
+ 	/**
+-	  @brief JSON string "blah-blah \" clah-clah " | 'blah-blah \' clah-clah '
++	  @brief JSON string "blah-blah \\" clah-clah " | 'blah-blah \\' clah-clah '
+ 	  @param szData - current stream position
+ 	  @param szEnd - end of stream position
+ 	  @return NULL if sequence not found or pointer to end of sequence
+Index: ctpp2/include/CTPP2Parser.hpp
+===================================================================
+--- ctpp2.orig/include/CTPP2Parser.hpp
++++ ctpp2/include/CTPP2Parser.hpp
+@@ -280,7 +280,7 @@ private:
+ 	CCharIterator IsVar(CCharIterator szData, CCharIterator szEnd);
+ 
+ 	/**
+-	  @brief CTPP2 string "blah-blah \" clah-clah " | 'blah-blah \' clah-clah '
++	  @brief CTPP2 string "blah-blah \\" clah-clah " | 'blah-blah \\' clah-clah '
+ 	  @param szData - current stream position
+ 	  @param szEnd - end of stream position
+ 	  @return NULL if sequence not found or pointer to end of sequence
