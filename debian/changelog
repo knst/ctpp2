@@ -1,3 +1,11 @@
+ctpp2 (2.8.3-26) UNRELEASED; urgency=medium
+
+  * Update my email address
+  * Configure Salsa pipeline
+  * Update symbols for hppa, ia64, kfreebsd-amd64, sh4
+
+ -- Kunal Mehta <legoktm@debian.org>  Sun, 30 Dec 2018 08:42:19 +0000
+
 ctpp2 (2.8.3-25.1) unstable; urgency=medium
 
   * Non-maintainer upload.
